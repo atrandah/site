@@ -1,8 +1,22 @@
 baseURL       = "http://example.org/"
-languageCode  = "en-us"
 title         = "Roxo | Creative Design Agency"
 theme         = "roxo-hugo"
 summarylength = 25
+
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    contentDir = 'content/english'
+    languageCode = 'EN'
+    languageName = 'English'
+    weight = 1
+  [languages.pl]
+    contentDir = 'content/polish'
+    languageCode = 'PL'
+    languageName = 'Polish'
+    weight = 2
 
 [caches]
   [caches.images]
