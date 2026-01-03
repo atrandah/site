@@ -116,6 +116,15 @@ defaultContentLanguageInSubdir = true
           phone   = "409-896-1444"
           email   = "info@roxo.co"
 
+          [languages.pl.params.footer.social]
+            title   = "Social Media"
+            [[languages.pl.params.footer.social.link]]
+              name = "Facebook"
+              url  = "#"
+            [[languages.pl.params.footer.social.link]]
+              name = "Instagram"
+              url  = "#"
+
           [languages.pl.params.footer.sitemap]
             title   = "Sitemap"
             [[languages.pl.params.footer.sitemap.link]]
@@ -130,15 +139,6 @@ defaultContentLanguageInSubdir = true
             [[languages.pl.params.footer.sitemap.link]]
               name = "Contact"
               url  = "contact"
-
-          [languages.pl.params.footer.social]
-            title   = "Social Media"
-            [[languages.pl.params.footer.social.link]]
-              name = "Facebook"
-              url  = "#"
-            [[languages.pl.params.footer.social.link]]
-              name = "Instagram"
-              url  = "#"
 
           [languages.pl.params.footer.service]
             title       = "We help brands:"
@@ -235,6 +235,15 @@ defaultContentLanguageInSubdir = true
           phone   = "409-896-1444"
           email   = "info@roxo.co"
 
+          [languages.en.params.footer.social]
+            title   = "Social Media"
+            [[languages.en.params.footer.social.link]]
+              name = "Facebook"
+              url  = "#"
+            [[languages.en.params.footer.social.link]]
+              name = "Instagram"
+              url  = "#"
+
           [languages.en.params.footer.sitemap]
             title   = "Sitemap"
             [[languages.en.params.footer.sitemap.link]]
@@ -249,15 +258,6 @@ defaultContentLanguageInSubdir = true
             [[languages.en.params.footer.sitemap.link]]
               name = "Contact"
               url  = "contact"
-
-          [languages.en.params.footer.social]
-            title   = "Social Media"
-            [[languages.en.params.footer.social.link]]
-              name = "Facebook"
-              url  = "#"
-            [[languages.en.params.footer.social.link]]
-              name = "Instagram"
-              url  = "#"
 
           [languages.en.params.footer.service]
             title       = "We help brands:"
