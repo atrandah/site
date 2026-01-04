@@ -1,6 +1,6 @@
 baseURL       = "https://atrandah.github.io/site"
 title         = "Alicja Tranda"
-theme         = "roxo-hugo"
+theme         = "hugo-cadence"
 summarylength = 25
 
 defaultContentLanguage = 'pl'
