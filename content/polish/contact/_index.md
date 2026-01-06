@@ -1,6 +1,4 @@
 +++
-title = 'Contact'
-date = '2019-12-23T20:17:01+06:00'
-heading = 'Powiedz nam coś o swoim projekcie. Powiedz <span>hej.</span>'
-form_heading = 'TELL US ABOUT YOUR PROJECT'
+date = '2026-01-06T20:49:51+01:00'
+title = 'Kontakt'
 +++
