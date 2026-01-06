@@ -3,7 +3,7 @@ title         = "Alicja Tranda"
 theme         = "hugo-cadence"
 summarylength = 25
 
-defaultContentLanguage = 'pl'
+defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
 
 [caches]
@@ -28,130 +28,11 @@ defaultContentLanguageInSubdir = true
     background_image = "images/backgrounds/cta-background.jpg"
 
 [languages]
-  [languages.pl]
-    contentDir = 'content/polish'
-    languageCode = 'PL'
-    languageName = 'Polish'
-    weight = 1
-
-    [languages.pl.menu]
-      [[languages.pl.menu.nav]]
-        name    = "Strona główna"
-        url     = ""
-        weight  = 1
-      [[languages.pl.menu.nav]]
-        name    = "O mnie"
-        url     = "about-me"
-        weight  = 2
-      [[languages.pl.menu.nav]]
-        name    = "Lekcje"
-        url     = "lessons"
-        weight  = 3
-      [[languages.pl.menu.nav]]
-        name    = "Współpraca"
-        url     = "collaboration"
-        weight  = 4
-      [[languages.pl.menu.nav]]
-        name    = "Napisz do mnie"
-        url     = "contact"
-        weight  = 5
-
-    [languages.pl.params]
-      description = "Roxo Hugo themes | Design Agency Template by StaticMania"
-
-      [languages.pl.params.contactForm]
-        placeholder_first_name        = "First Name"
-        placeholder_last_name         = "Last Name"
-        placeholder_email             = "Email"
-        placeholder_project_type      = "Project Type"
-        placeholder_about_the_project = "About the Project"
-        send_message                  = "Send Message"
-
-        [[languages.pl.params.contactForm.projectType]]
-          value = "gd"
-          title  = "Graphics Design"
-        [[languages.pl.params.contactForm.projectType]]
-          value = "wd"
-          title  = "Web Design"
-
-      [languages.pl.params.navAction]
-        status  = true
-        name    = "Get in touch"
-        url     = "contact"
-
-      [languages.pl.params.banner]
-        enable                = true
-        heading               = "We’re a Design Studio That Believes In the Great Ideas"
-        tagline               = "WE WORK HARD, WE PLAY HARD"
-        primary_button        = "See Our Works"
-        primary_button_url    = "portfolio"
-        secondary_button      = "Connect with Us"
-        secondary_button_url  = "contact"
-
-      [languages.pl.params.blog]
-        read_more             = "read more"
-
-      [languages.pl.params.portfolio]
-        enable    = true
-        title     = "OUR RECENT WORKS"
-        subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
-        view_project = "view project"
-        more_works = "MORE WORKS"
-        scroll_down = "scroll down"
-
-      [languages.pl.params.call_to_action]
-        enable              = true
-        title               = "LET’S WORK TOGETHER"
-        primary_button      = "Submit Query"
-        primary_button_url  = "contact"
-        secondary_button    = "Not Convinced"
-        secondary_button_url = "portfolio"
-
-      [languages.pl.params.footer]
-        qr_print = false
-
-        [languages.pl.params.footer.contactInfo]
-          title   = "Contact Info"
-          address = "713 Elmwood St.<br>Prior Lake, MN 55372"
-          phone   = "409-896-1444"
-          email   = "info@roxo.co"
-
-          [languages.pl.params.footer.social]
-            title   = "Social Media"
-            [[languages.pl.params.footer.social.link]]
-              name = "Facebook"
-              url  = "#"
-            [[languages.pl.params.footer.social.link]]
-              name = "Instagram"
-              url  = "#"
-
-          [languages.pl.params.footer.sitemap]
-            title   = "Sitemap"
-            [[languages.pl.params.footer.sitemap.link]]
-              name = "About Company"
-              url  = "about"
-            [[languages.pl.params.footer.sitemap.link]]
-              name = "Projects"
-              url  = "portfolio"
-            [[languages.pl.params.footer.sitemap.link]]
-              name = "Blog"
-              url  = "blog"
-            [[languages.pl.params.footer.sitemap.link]]
-              name = "Contact"
-              url  = "contact"
-
-          [languages.pl.params.footer.service]
-            title       = "We help brands:"
-            description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
-          [languages.pl.params.footer.back_to_top]
-            description = "I want to <br> visit again"
-
-
   [languages.en]
     contentDir = 'content/english'
     languageCode = 'EN'
     languageName = 'English'
-    weight = 2
+    weight = 1
 
     [languages.en.menu]
       [[languages.en.menu.nav]]
@@ -263,4 +144,122 @@ defaultContentLanguageInSubdir = true
             title       = "We help brands:"
             description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
           [languages.en.params.footer.back_to_top]
+            description = "I want to <br> visit again"
+
+  [languages.pl]
+    contentDir = 'content/polish'
+    languageCode = 'PL'
+    languageName = 'Polish'
+    weight = 2
+
+    [languages.pl.menu]
+      [[languages.pl.menu.nav]]
+        name    = "Strona główna"
+        url     = ""
+        weight  = 1
+      [[languages.pl.menu.nav]]
+        name    = "O mnie"
+        url     = "about-me"
+        weight  = 2
+      [[languages.pl.menu.nav]]
+        name    = "Lekcje"
+        url     = "lessons"
+        weight  = 3
+      [[languages.pl.menu.nav]]
+        name    = "Współpraca"
+        url     = "collaboration"
+        weight  = 4
+      [[languages.pl.menu.nav]]
+        name    = "Napisz do mnie"
+        url     = "contact"
+        weight  = 5
+
+    [languages.pl.params]
+      description = "Roxo Hugo themes | Design Agency Template by StaticMania"
+
+      [languages.pl.params.contactForm]
+        placeholder_first_name        = "First Name"
+        placeholder_last_name         = "Last Name"
+        placeholder_email             = "Email"
+        placeholder_project_type      = "Project Type"
+        placeholder_about_the_project = "About the Project"
+        send_message                  = "Send Message"
+
+        [[languages.pl.params.contactForm.projectType]]
+          value = "gd"
+          title  = "Graphics Design"
+        [[languages.pl.params.contactForm.projectType]]
+          value = "wd"
+          title  = "Web Design"
+
+      [languages.pl.params.navAction]
+        status  = true
+        name    = "Get in touch"
+        url     = "contact"
+
+      [languages.pl.params.banner]
+        enable                = true
+        heading               = "We’re a Design Studio That Believes In the Great Ideas"
+        tagline               = "WE WORK HARD, WE PLAY HARD"
+        primary_button        = "See Our Works"
+        primary_button_url    = "portfolio"
+        secondary_button      = "Connect with Us"
+        secondary_button_url  = "contact"
+
+      [languages.pl.params.blog]
+        read_more             = "read more"
+
+      [languages.pl.params.portfolio]
+        enable    = true
+        title     = "OUR RECENT WORKS"
+        subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
+        view_project = "view project"
+        more_works = "MORE WORKS"
+        scroll_down = "scroll down"
+
+      [languages.pl.params.call_to_action]
+        enable              = true
+        title               = "LET’S WORK TOGETHER"
+        primary_button      = "Submit Query"
+        primary_button_url  = "contact"
+        secondary_button    = "Not Convinced"
+        secondary_button_url = "portfolio"
+
+      [languages.pl.params.footer]
+        qr_print = false
+
+        [languages.pl.params.footer.contactInfo]
+          title   = "Contact Info"
+          address = "713 Elmwood St.<br>Prior Lake, MN 55372"
+          phone   = "409-896-1444"
+          email   = "info@roxo.co"
+
+          [languages.pl.params.footer.social]
+            title   = "Social Media"
+            [[languages.pl.params.footer.social.link]]
+              name = "Facebook"
+              url  = "#"
+            [[languages.pl.params.footer.social.link]]
+              name = "Instagram"
+              url  = "#"
+
+          [languages.pl.params.footer.sitemap]
+            title   = "Sitemap"
+            [[languages.pl.params.footer.sitemap.link]]
+              name = "About Company"
+              url  = "about"
+            [[languages.pl.params.footer.sitemap.link]]
+              name = "Projects"
+              url  = "portfolio"
+            [[languages.pl.params.footer.sitemap.link]]
+              name = "Blog"
+              url  = "blog"
+            [[languages.pl.params.footer.sitemap.link]]
+              name = "Contact"
+              url  = "contact"
+
+          [languages.pl.params.footer.service]
+            title       = "We help brands:"
+            description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
+          [languages.pl.params.footer.back_to_top]
             description = "I want to <br> visit again"
