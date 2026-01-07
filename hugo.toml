@@ -22,7 +22,7 @@ defaultContentLanguageInSubdir = true
   fabform  = "https://fabform.io/f/USAg2Jl"
 
   [params.banner]
-    background_image = "images/backgrounds/hero-background.jpg"
+    background_image = "images/hero/image.jpg"
 
   [params.call_to_action]
     background_image = "images/backgrounds/cta-background.jpg"
