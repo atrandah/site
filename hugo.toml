@@ -24,6 +24,10 @@ defaultContentLanguageInSubdir = true
   [params.banner]
     background_image = "images/hero/image.jpg"
 
+  [params.video]
+    enable = true
+    video_url = "https://www.youtube.com/embed/T27XggtdVaQ"
+
   [params.call_to_action]
     background_image = "images/backgrounds/cta-background.jpg"
 
