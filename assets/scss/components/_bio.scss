@@ -1,0 +1,15 @@
+.site-bio {
+  color: $black;
+  background: $white;
+  padding: 60px 0;
+
+  @include mobile {
+    padding: 50px 0;
+  }
+
+  &-image {
+    border-radius: 10px;
+    max-width: 60%;
+    margin: 0 auto;
+  }
+}
