@@ -92,8 +92,8 @@ defaultContentLanguageInSubdir = true
 
       [languages.en.params.banner]
         enable             = true
-        heading            = "Alicja Tranda Vocal Coach"
-        description        = "Singing teacher and vocalist based in Lodz, Poland (EU)."
+        heading            = "Alicja Tranda"
+        description        = "Vocal coach and vocalist based in Lodz, Poland (EU)."
         primary_button     = "Contact"
         primary_button_url = "contact"
 
