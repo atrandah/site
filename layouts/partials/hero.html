@@ -1,0 +1,38 @@
+{{ with .Site.Params.banner }}
+  {{ if .enable }}
+  {{ "<!-- Site Hero Start -->" | safeHTML }}
+  <section class="site-hero">
+    <div class="container">
+      <div class="row align-items-center flex-md-row-reverse">
+
+        <div class="col-lg-9 col-md-8  mb-4 mb-md-0">
+          <img src="{{ .hero_image | absURL }}" class="site-hero-image img-fluid">
+        </div>
+
+        <div class="col-lg-3 col-md-4 text-center">
+          <div class="site-hero-heading">
+            <h1>{{ .heading }}</h1>
+            <p class="lead">{{ .description }}</p>
+          </div>
+
+          <a href="{{ .primary_button_url | absLangURL }}"
+            class="btn btn-primary btn-rounded">
+            <span class="btn-area">
+              <span data-text="{{ .primary_button }}">
+                {{ .primary_button }}
+              </span>
+            </span>
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+    <a href="#statement" class="site-hero-scroll scroll-to">
+      <img src="{{ "images/arrow-down.svg" | absURL }}" alt="arrow-down">
+    </a>
+
+  </section>
+  {{ "<!-- Site Hero End -->" | safeHTML }}
+  {{ end }}
+{{ end }}
