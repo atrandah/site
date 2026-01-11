@@ -22,13 +22,17 @@ defaultContentLanguageInSubdir = true
   fabform  = "https://fabform.io/f/USAg2Jl"
 
   [params.banner]
-    background_image = "images/hero/image.jpg"
+    hero_image = "images/hero/image.jpg"
 
   [params.video]
-    enable = true
+    enable    = true
     video_url = "https://www.youtube.com/embed/T27XggtdVaQ"
 
+  [params.bio]
+    bio_image = "images/bio/image.jpg"
+
   [params.call_to_action]
+    enable           = true
     background_image = "images/backgrounds/cta-background.jpg"
 
 [languages]
@@ -73,34 +77,41 @@ defaultContentLanguageInSubdir = true
 
         [[languages.en.params.contactForm.projectType]]
           value = "gd"
-          title  = "Graphics Design"
+          title = "Graphics Design"
         [[languages.en.params.contactForm.projectType]]
           value = "wd"
-          title  = "Web Design"
+          title = "Web Design"
 
       [languages.en.params.navAction]
-        status  = true
-        name    = "Get in touch"
-        url     = "contact"
+        status = true
+        name   = "Get in touch"
+        url    = "contact"
 
       [languages.en.params.banner]
-        enable                = true
-        heading               = "Alicja Tranda Vocal Coach"
-        description           = "Singing teacher and vocalist based in Lodz, Poland (EU)."
-        primary_button        = "Contact"
-        primary_button_url    = "contact"
+        enable             = true
+        heading            = "Alicja Tranda Vocal Coach"
+        description        = "Singing teacher and vocalist based in Lodz, Poland (EU)."
+        primary_button     = "Contact"
+        primary_button_url = "contact"
 
       [languages.en.params.statement]
-        enable = true
+        enable  = true
         heading = "Free your voice with me"
         content = "On the one hand, all you need to do is say what you mean, in your words, in your voice. On the other, there are so many rules to consider! Are you thinking of keywords you should rank for? Are you including links in your text to additional information? Do those links refer back to your own website, which helps boost your SEO? Is what you’ve written easy to scan? There’s a theory that people read in an F-shape pattern, and that this should influence how you structure content on your website. Lots of ins and outs—it’s no wonder writers rule the world."
 
+      [languages.en.params.bio]
+        enable             = true
+        heading            = "About me"
+        primary_button     = "Full bio"
+        primary_button_url = "about"
+        content            = "On the one hand, all you need to do is say what you mean, in your words, in your voice. On the other, there are so many rules to consider! Are you thinking of keywords you should rank for? Are you including links in your text to additional information? Do those links refer back to your own website, which helps boost your SEO? Is what you’ve written easy to scan? There’s a theory that people read in an F-shape pattern, and that this should influence how you structure content on your website. Lots of ins and outs—it’s no wonder writers rule the world."
+
       [languages.en.params.call_to_action]
-        enable              = true
-        title               = "LET’S WORK TOGETHER"
-        primary_button      = "Submit Query"
-        primary_button_url  = "contact"
-        secondary_button    = "Not Convinced"
+        enable               = true
+        title                = "LET’S WORK TOGETHER"
+        primary_button       = "Submit Query"
+        primary_button_url   = "contact"
+        secondary_button     = "Not Convinced"
         secondary_button_url = "portfolio"
 
       [languages.en.params.footer]
@@ -186,31 +197,38 @@ defaultContentLanguageInSubdir = true
           title  = "Graphics Design"
         [[languages.pl.params.contactForm.projectType]]
           value = "wd"
-          title  = "Web Design"
+          title = "Web Design"
 
       [languages.pl.params.navAction]
-        status  = true
-        name    = "Get in touch"
-        url     = "contact"
+        status = true
+        name   = "Get in touch"
+        url    = "contact"
 
       [languages.pl.params.banner]
-        enable                = true
-        heading               = "Alicja Tranda Vocal Coach"
-        description           = "Singing teacher and vocalist based in Lodz, Poland (EU)."
-        primary_button        = "Contact"
-        primary_button_url    = "contact"
+        enable             = true
+        heading            = "Alicja Tranda Vocal Coach"
+        description        = "Singing teacher and vocalist based in Lodz, Poland (EU)."
+        primary_button     = "Contact"
+        primary_button_url = "contact"
 
       [languages.pl.params.statement]
-        enable                = true
+        enable  = true
         heading = "Free your voice with me"
         content = "On the one hand, all you need to do is say what you mean, in your words, in your voice. On the other, there are so many rules to consider! Are you thinking of keywords you should rank for? Are you including links in your text to additional information? Do those links refer back to your own website, which helps boost your SEO? Is what you’ve written easy to scan? There’s a theory that people read in an F-shape pattern, and that this should influence how you structure content on your website. Lots of ins and outs—it’s no wonder writers rule the world."
 
+      [languages.pl.params.bio]
+        enable             = true
+        heading            = "About me"
+        primary_button     = "Full bio"
+        primary_button_url = "about"
+        content            = "On the one hand, all you need to do is say what you mean, in your words, in your voice. On the other, there are so many rules to consider! Are you thinking of keywords you should rank for? Are you including links in your text to additional information? Do those links refer back to your own website, which helps boost your SEO? Is what you’ve written easy to scan? There’s a theory that people read in an F-shape pattern, and that this should influence how you structure content on your website. Lots of ins and outs—it’s no wonder writers rule the world."
+
       [languages.pl.params.call_to_action]
-        enable              = true
-        title               = "LET’S WORK TOGETHER"
-        primary_button      = "Submit Query"
-        primary_button_url  = "contact"
-        secondary_button    = "Not Convinced"
+        enable               = true
+        heading              = "LET’S WORK TOGETHER"
+        primary_button       = "Submit Query"
+        primary_button_url   = "contact"
+        secondary_button     = "Not Convinced"
         secondary_button_url = "portfolio"
 
       [languages.pl.params.footer]
