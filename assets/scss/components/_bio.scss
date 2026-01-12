@@ -1,10 +1,10 @@
 .site-bio {
   color: $black;
   background: $white;
-  padding: 60px 0;
+  padding: $section-padding-desktop 0;
 
   @include mobile {
-    padding: 50px 0;
+    padding: $section-padding-mobile 0;
   }
 
   &-image {

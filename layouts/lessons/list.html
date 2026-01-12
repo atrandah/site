@@ -2,10 +2,10 @@
   {{ range $index, $item := .Params.lessons }}
 
     {{ if eq $index 0 }}
-      <section class="page-lessons-first page-lessons--dark">
+      <section class="site-lessons-first site-lessons--dark">
         {{ $rowClass := "flex-md-row-reverse" }}
     {{ else }}
-        <section class="page-lessons-rest page-lessons--light">
+        <section class="site-lessons-default site-lessons--light">
           {{ $rowClass := "" }}
     {{ end }}
 
@@ -13,7 +13,7 @@
             <div class="row {{ if eq $index 0 }}flex-md-row-reverse{{ end }}">
 
               <div class="col-lg-4 col-md-4 mb-4 mb-md-0 align-self-center text-center">
-                <img src="{{ $item.image | absURL }}" class="page-lessons-image">
+                <img src="{{ $item.image | absURL }}" class="site-lessons-image">
               </div>
 
               <div class="col-lg-8 col-md-8">
