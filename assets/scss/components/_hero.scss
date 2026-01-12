@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: $hero-background-color;
+  background-color: $secondary-color;
 
   @include desktop {
     height: auto;
