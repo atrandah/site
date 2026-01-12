@@ -16,16 +16,14 @@
             <span>{{ .content }}</span>
           </div>
 
-          <div class="text-center">
-            <a href="{{ .primary_button_url | absLangURL }}"
-              class="btn btn-sm btn-secondary btn-rounded mt-4">
-              <span class="btn-area">
-                <span data-text="{{ .primary_button }}">
-                  {{ .primary_button }}
-                </span>
+          <a href="{{ .primary_button_url | absLangURL }}"
+            class="btn btn-sm btn-secondary btn-rounded btn-positioned mt-4">
+            <span class="btn-area">
+              <span data-text="{{ .primary_button }}">
+                {{ .primary_button }}
               </span>
-            </a>
-          </div>
+            </span>
+          </a>
 
         </div>
       </div>
