@@ -1,0 +1,44 @@
+{{ define "main" }}
+  {{ range $index, $item := .Params.lessons }}
+
+    {{ if eq $index 0 }}
+      <section class="page-lessons-first page-lessons--dark">
+        {{ $rowClass := "flex-md-row-reverse" }}
+    {{ else }}
+        <section class="page-lessons-rest page-lessons--light">
+          {{ $rowClass := "" }}
+    {{ end }}
+
+          <div class="container">
+            <div class="row {{ if eq $index 0 }}flex-md-row-reverse{{ end }}">
+
+              <div class="col-lg-4 col-md-4 mb-4 mb-md-0 align-self-center text-center">
+                <img src="{{ $item.image | absURL }}" class="page-lessons-image">
+              </div>
+
+              <div class="col-lg-8 col-md-8">
+                <div>
+                  <div class="section-title">
+                    <h2>{{ $item.heading }}</h2>
+                  </div>
+                  <span>{{ $item.content }}</span>
+                </div>
+
+                <a href="{{ $item.button_url | absLangURL }}"
+                  class="btn btn-sm btn-primary btn-rounded btn-positioned mt-4">
+                  <span class="btn-area">
+                    <span data-text="{{ $item.button }}">
+                      {{ $item.button }}
+                    </span>
+                  </span>
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+  {{ end }}
+{{ end }}
+
