@@ -11,7 +11,7 @@ defaultContentLanguageInSubdir = true
 
 [params]
   logo = "images/logo.png"
-  logo_footer = "images/logo-footer.png"
+  logo_footer = "images/logo.png"
   favicon_icon = "images/favicon.ico"
   favicon_shortcut_icon = "images/favicon.png"
   custom_stylesheets = [ "scss/_variables.scss" ]
