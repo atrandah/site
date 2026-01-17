@@ -1,16 +1,16 @@
 {{ define "main" }}
   {{ range $index, $item := .Params.lessons }}
 
+    {{ $rowClass := "" }}
     {{ if eq $index 0 }}
       <section class="site-lessons-first site-lessons--dark">
-        {{ $rowClass := "flex-md-row-reverse" }}
+        {{ $rowClass = "flex-md-row-reverse" }}
     {{ else }}
         <section class="site-lessons-default site-lessons--light">
-          {{ $rowClass := "" }}
     {{ end }}
 
           <div class="container">
-            <div class="row {{ if eq $index 0 }}flex-md-row-reverse{{ end }}">
+            <div class="row {{ $rowClass }}">
 
               <div class="col-lg-4 col-md-4 mb-4 mb-md-0 align-self-center text-center">
                 <img src="{{ $item.image | absURL }}" class="site-lessons-image">
