@@ -7,6 +7,40 @@ body {
   background: $body-color;
 }
 
+.background--white {
+  color: $black;
+  background: $white;
+}
+
+// TODO: rename variables or class names to match variables names
+.background--light-blue {
+  color: $black;
+  background: $section-background-color;
+}
+
+.background--dark-blue {
+  color: $white;
+  background: $secondary-color;
+}
+
+.section-padding {
+  &-first {
+    padding: $section-padding-first-desktop 0 $section-padding-desktop;
+
+    @include mobile {
+      padding: $section-padding-first-mobile 0 $section-padding-mobile;
+    }
+  }
+
+  &-default {
+    padding: $section-padding-desktop 0;
+
+    @include mobile {
+      padding: $section-padding-mobile 0;
+    }
+  }
+}
+
 .section-title {
   margin-bottom: 40px;
 
@@ -24,6 +58,20 @@ body {
   p {
     font-size: 20px;
     font-weight: 300;
+  }
+}
+
+.section-image {
+  display: block;
+  max-width: 60%;
+
+  @include desktop {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  @include tablet {
+    margin: 0 auto;
   }
 }
 

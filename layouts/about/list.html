@@ -1,47 +1,62 @@
 {{ define "main" }}
 
-<section class="site-about-header">
+<section class="section-padding-first background--light-blue">
   <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="site-about-wrapper">
-          <div class="site-about-company">
-            <h1>
-              {{ .Params.heading }}
-            </h1>
+    <div class="row flex-md-row-reverse">
+
+      <div class="col-lg-4 col-md-4 mb-4 mb-md-0 align-self-center text-center">
+        <img src="{{ .Params.image | absURL }}" class="section-image">
+      </div>
+
+      <div class="col-lg-8 col-md-8">
+        <div>
+          <div class="section-title">
+            <h2>{{ .Params.heading }}</h2>
           </div>
-          <div class="site-about-description">
-            <p>
-              {{ .Description }}
-            </p>
-          </div>
+          <span>{{ .Params.content }}</span>
+        </div>
+
+        <a href="{{ .Params.button_url | absLangURL }}"
+          class="btn btn-sm btn-secondary btn-rounded btn-positioned mt-4">
+          <span class="btn-area">
+            <span data-text="{{ .Params.button }}">
+              {{ .Params.button }}
+            </span>
+          </span>
+        </a>
+
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section-padding-default background--light-blue">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-10 col-lg-8">
+        <div class="ratio ratio-16x9">
+          <iframe
+            src="{{ .Params.video_url }}"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+          </iframe>
         </div>
       </div>
     </div>
   </div>
 </section>
-
-<section class="site-expertise">
+<section class="section-padding-default background--light-blue">
   <div class="container">
     <div class="row">
-      {{ with .Params.expertise_title }}
-      <div class="col-md-5">
+      <div class="col">
         <div class="section-title">
-          <h2>{{ . }}</h2>
+          <h2>{{ .Params.heading2 }}</h2>
         </div>
-      </div>
-      {{ end }}
-      <div class="col-md-6">
-        <ul class="site-expertise-list">
-          {{ range .Params.expertise_sectors }}
-          <li>{{ . }}</li>
-          {{ end }}
-        </ul>
+        <span>{{ .Params.content2 }}</span>
       </div>
     </div>
   </div>
 </section>
-
-{{ partial "call-to-action.html" . }}
-
 {{ end }}
