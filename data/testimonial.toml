@@ -1,0 +1,19 @@
+enable = true
+title = "Testimonials"
+subtitle = "Here's what people are saying"
+
+[[testimonial_item]]
+  author = "Simonns Hodge"
+  quote = "In the garden of life, some things are just very sweet. This is one of them."
+
+[[testimonial_item]]
+  author = "Rekon Montino"
+  quote = "Your expectations will fly sky high. I felt like I was soaring."
+
+[[testimonial_item]]
+  author = "Ryan Hillary"
+  quote = "Using this felt like it transformed me completely."
+
+[[testimonial_item]]
+  author = "Mary Jane Watson"
+  quote = "It felt like something completely new. I've never experienced anything like that."
