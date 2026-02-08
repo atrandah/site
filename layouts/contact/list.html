@@ -13,26 +13,44 @@
           <form id="contact-form" action="{{ .Site.Params.fabform }}" method="post">
             <div class="row">
               <div class="col-lg-6">
-                <input type="text" class="form-control" name="first-name" id="first-name" placeholder="{{ .Site.Params.contactForm.placeholder_first_name }}" required>
+                <input type="text"
+                  class="form-control"
+                  name="first-name"
+                  id="first-name"
+                  placeholder="{{ .Site.Params.contactForm.placeholder_first_name }}"
+                  required>
               </div>
               <div class="col-lg-6">
-                <input type="text" class="form-control" name="last-name" id="last-name" placeholder="{{ .Site.Params.contactForm.placeholder_last_name }}" required>
+                <input type="text"
+                  class="form-control"
+                  name="last-name"
+                  id="last-name"
+                  placeholder="{{ .Site.Params.contactForm.placeholder_last_name }}"
+                  required>
               </div>
               <div class="col-lg-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="{{ .Site.Params.contactForm.placeholder_email }}" required>
+                <input type="email"
+                  class="form-control"
+                  name="email"
+                  id="email"
+                  placeholder="{{ .Site.Params.contactForm.placeholder_email }}"
+                  required>
               </div>
               <div class="col-lg-6">
-                <div class="select-wrapper">
-                  <select class="form-control" id="projectType" name="project-type" required>
-                    <option value="" selected disabled hidden>{{ .Site.Params.contactForm.placeholder_project_type }}</option>
-                    {{ range .Site.Params.contactForm.projectType }}
-                    <option value="{{ .value }}">{{ .title }}</option>
-                    {{ end }}
-                  </select>
-                </div>
+                <input type="text"
+                  class="form-control"
+                  name="phone"
+                  id="phone"
+                  placeholder="{{ .Site.Params.contactForm.placeholder_phone }}"
+                  required>
               </div>
               <div class="col-12">
-                <textarea class="form-control" id="aboutProject" name="about-project" rows="6" placeholder="{{ .Site.Params.contactForm.placeholder_about_the_project }}"></textarea>
+                <textarea class="form-control"
+                  id="message"
+                  name="message"
+                  rows="6"
+                  placeholder="{{ .Site.Params.contactForm.placeholder_message }}">
+                </textarea>
               </div>
               <div class="col-12">
                 <button formtarget="_blank" type="submit" class="btn btn-primary btn-rounded" id="contact-form-button">
@@ -46,9 +64,6 @@
               <p id="contact-form-status"></p>
             </div>
           </form>
-          <p class="contact-form-generator">
-          <a href="https://fabform.io/" target="_blank">form backend service</a>
-          </p>
         </div>
       </div>
     </div>

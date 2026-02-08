@@ -18,7 +18,7 @@ defaultContentLanguageInSubdir = true
   dateFormat = "26 FEB 1994"
   author = "Alicja Tranda"
   googleAnalitycsID = "Your ID"
-  fabform  = "https://fabform.io/f/USAg2Jl"
+  fabform  = "https://fabform.io/f/xM-wwPg"
 
   [params.banner]
     hero_image = "images/hero.jpg"
@@ -70,19 +70,12 @@ defaultContentLanguageInSubdir = true
       description = "Hugo Cadence is a Hugo theme for creative individuals."
 
       [languages.en.params.contactForm]
-        placeholder_first_name        = "First Name"
-        placeholder_last_name         = "Last Name"
-        placeholder_email             = "Email"
-        placeholder_project_type      = "Project Type"
-        placeholder_about_the_project = "About the Project"
-        send_message                  = "Send Message"
-
-        [[languages.en.params.contactForm.projectType]]
-          value = "gd"
-          title = "Graphics Design"
-        [[languages.en.params.contactForm.projectType]]
-          value = "wd"
-          title = "Web Design"
+        placeholder_first_name = "First Name"
+        placeholder_last_name  = "Last Name"
+        placeholder_email      = "Email"
+        placeholder_phone      = "Phone"
+        placeholder_message    = "Message"
+        send_message           = "Send"
 
       [languages.en.params.navAction]
         status = true
@@ -194,19 +187,12 @@ defaultContentLanguageInSubdir = true
       description = "Hugo Cadence is a Hugo theme for creative individuals."
 
       [languages.pl.params.contactForm]
-        placeholder_first_name        = "First Name"
-        placeholder_last_name         = "Last Name"
-        placeholder_email             = "Email"
-        placeholder_project_type      = "Project Type"
-        placeholder_about_the_project = "About the Project"
-        send_message                  = "Send Message"
-
-        [[languages.pl.params.contactForm.projectType]]
-          value = "gd"
-          title  = "Graphics Design"
-        [[languages.pl.params.contactForm.projectType]]
-          value = "wd"
-          title = "Web Design"
+        placeholder_first_name = "First Name"
+        placeholder_last_name  = "Last Name"
+        placeholder_email      = "Email"
+        placeholder_phone      = "Phone"
+        placeholder_message    = "Message"
+        send_message           = "Send"
 
       [languages.pl.params.navAction]
         status = true
