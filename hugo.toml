@@ -99,7 +99,7 @@ defaultContentLanguageInSubdir = true
         heading            = "About me"
         primary_button     = "Full bio"
         primary_button_url = "about"
-        content            = "On the one hand, all you need to do is say what you mean, in your words, in your voice. On the other, there are so many rules to consider! Are you thinking of keywords you should rank for? Are you including links in your text to additional information? Do those links refer back to your own website, which helps boost your SEO? Is what you’ve written easy to scan? There’s a theory that people read in an F-shape pattern, and that this should influence how you structure content on your website. Lots of ins and outs—it’s no wonder writers rule the world."
+        content            = "Alicja is a vocalist and vocal coach specialising in contemporary and rock vocal performance. She is a Level 3 Modern Vocal Training coach with several years of experience, working with singers at all levels, individually and in groups. Alicja is constantly improving her skills under the supervision of specialists from around the world, studying diverse approaches to voice. Her additional professional training includes courses in music production and songwriting. As a vocalist, dancer and actress, she has performed in theatre productions, concerts, and experimental art projects. Currently, Alicja is co-founding Ekstremalna Szkoła Wokalna (Extreme Vocal School) in Lodz and continues to develop her own artistic work."
 
       [languages.en.params.lessons]
         enable             = true
