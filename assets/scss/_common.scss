@@ -1,42 +1,47 @@
+@use "mixins";
+@use "variables";
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 70px;
 }
 
 body {
-  background: $body-color;
+  background: variables.$body-color;
 }
 
 .background--white {
-  color: $black;
-  background: $white;
+  color: variables.$black;
+  background: variables.$white;
 }
 
 // TODO: rename variables or class names to match variables names
 .background--light-blue {
-  color: $black;
-  background: $section-background-color;
+  color: variables.$black;
+  background: variables.$section-background-color;
 }
 
 .background--dark-blue {
-  color: $white;
-  background: $secondary-color;
+  color: variables.$white;
+  background: variables.$secondary-color;
 }
 
 .section-padding {
   &-first {
-    padding: $section-padding-first-desktop 0 $section-padding-desktop;
+    padding: variables.$section-padding-first-desktop 0
+      variables.$section-padding-desktop;
 
-    @include mobile {
-      padding: $section-padding-first-mobile 0 $section-padding-mobile;
+    @include mixins.mobile {
+      padding: variables.$section-padding-first-mobile 0
+        variables.$section-padding-mobile;
     }
   }
 
   &-default {
-    padding: $section-padding-desktop 0;
+    padding: variables.$section-padding-desktop 0;
 
-    @include mobile {
-      padding: $section-padding-mobile 0;
+    @include mixins.mobile {
+      padding: variables.$section-padding-mobile 0;
     }
   }
 }
@@ -50,7 +55,7 @@ body {
     text-transform: uppercase;
     margin-bottom: 15px;
 
-    @include desktop {
+    @include mixins.desktop {
       font-size: 40px;
     }
   }
@@ -65,12 +70,12 @@ body {
   display: block;
   max-width: 60%;
 
-  @include desktop {
+  @include mixins.desktop {
     margin-left: 0;
     margin-right: auto;
   }
 
-  @include tablet {
+  @include mixins.tablet {
     margin: 0 auto;
   }
 }
@@ -81,7 +86,7 @@ body {
   margin-bottom: 30px;
   padding: 0 0 10px 0;
   border-width: 0 0 1px 0;
-  border-color: $primary-color;
+  border-color: variables.$primary-color;
   font-weight: 300;
   letter-spacing: 1px;
   -webkit-appearance: none;
@@ -90,7 +95,7 @@ body {
   &:focus {
     box-shadow: none;
     background: transparent;
-    border-color: $text-color;
+    border-color: variables.$text-color;
   }
 }
 
@@ -124,11 +129,11 @@ textarea.form-control {
   display: block;
   width: fit-content;
 
-  @include desktop {
+  @include mixins.desktop {
     margin-left: 0;
   }
 
-  @include tablet {
+  @include mixins.tablet {
     margin: 0 auto;
   }
 }

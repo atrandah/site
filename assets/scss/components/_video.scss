@@ -1,3 +1,5 @@
+@use "../variables";
+
 .site-video {
-  background: $section-background-color;
+  background: variables.$section-background-color;
 }

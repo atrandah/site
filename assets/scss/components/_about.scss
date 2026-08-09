@@ -1,9 +1,12 @@
+@use "../mixins";
+@use "../variables";
+
 .site-about {
   &-header {
     padding-top: 80px;
-    background-color: $gray;
+    background-color: variables.$gray;
 
-    @include mobile {
+    @include mixins.mobile {
       padding-top: 60px;
       text-align: center;
     }
@@ -16,16 +19,16 @@
   }
 
   &-company {
-    background: $primary-color;
+    background: variables.$primary-color;
     width: 40%;
     padding: 70px 38px;
-    @include desktop {
+    @include mixins.desktop {
       width: 100%;
       margin-bottom: 20px;
     }
 
     h1 {
-      color: $white;
+      color: variables.$white;
       font-weight: 400;
       font-size: 25px;
       line-height: 60px;
@@ -38,7 +41,7 @@
     width: 60%;
     padding-left: 50px;
 
-    @include desktop {
+    @include mixins.desktop {
       width: 100%;
       padding: 0 38px;
     }

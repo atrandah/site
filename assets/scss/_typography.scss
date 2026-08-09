@@ -1,9 +1,11 @@
+@use "variables";
+
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700|Montserrat:300,400,500,600,700&display=swap");
 
 body {
-  font-family: $primary-font;
+  font-family: variables.$primary-font;
   font-size: 16px;
-  color: $text-color;
+  color: variables.$text-color;
 }
 
 h1,
@@ -12,13 +14,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $secondary-font;
+  font-family: variables.$secondary-font;
   font-weight: 600;
 }
 
 p {
   font-size: 16px;
-  color: $text-color;
+  color: variables.$text-color;
 }
 
 h1 {

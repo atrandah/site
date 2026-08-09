@@ -1,20 +1,25 @@
-.site-contact {
-  padding: $section-padding-first-desktop 0 $section-padding-desktop;
-  background: $gray;
+@use "../mixins";
+@use "../variables";
 
-  @include mobile {
-    padding: $section-padding-first-mobile 0 $section-padding-mobile;
+.site-contact {
+  padding: variables.$section-padding-first-desktop 0
+    variables.$section-padding-desktop;
+  background: variables.$gray;
+
+  @include mixins.mobile {
+    padding: variables.$section-padding-first-mobile 0
+      variables.$section-padding-mobile;
   }
 
   &-title {
     font-weight: 700;
 
-    @include tablet {
+    @include mixins.tablet {
       font-size: 40px;
     }
 
     span {
-      color: $primary-color;
+      color: variables.$primary-color;
     }
   }
 
@@ -27,11 +32,11 @@
       margin-bottom: 50px;
       letter-spacing: 3px;
 
-      @include tablet {
+      @include mixins.tablet {
         font-size: 20px;
       }
 
-      @include desktop {
+      @include mixins.desktop {
         margin-bottom: 70px;
       }
     }
@@ -42,7 +47,7 @@
   margin-top: 20px;
 
   a {
-    color: $text-color-dark;
+    color: variables.$text-color-dark;
     font-size: 13px;
     text-transform: uppercase;
     margin-bottom: 50px;
@@ -52,11 +57,11 @@
       text-decoration: none;
     }
 
-    @include tablet {
+    @include mixins.tablet {
       font-size: 20px;
     }
 
-    @include desktop {
+    @include mixins.desktop {
       margin-bottom: 70px;
     }
   }

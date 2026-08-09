@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="{{ "fontawesome/css/all.min.css" | absURL }}" />
   {{ "<!-- Main Stylesheets -->" | safeHTML }}
   {{ range (slice "scss/style.scss" | append .Site.Params.custom_stylesheets) -}}
-    {{ $style := resources.Get . | toCSS (dict "transpiler" "libsass" "targetPath" (replaceRE `^scss/(.*)\.scss$` "css/$1.css" .)) }}
+    {{ $style := resources.Get . | toCSS (dict "transpiler" "dartsass" "targetPath" (replaceRE `^scss/(.*)\.scss$` "css/$1.css" .)) }}
     {{ if hugo.IsDevelopment }}
       <link href="{{ $style.RelPermalink }}" rel="stylesheet">
     {{ else }}

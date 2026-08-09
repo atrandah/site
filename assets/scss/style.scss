@@ -1,31 +1,31 @@
-@import "variables";
+@use "variables";
 
-@import "typography";
+@use "typography";
 
-@import "mixins";
+@use "mixins";
 
-@import "buttons";
+@use "buttons";
 
-@import "common";
+@use "common";
 
-@import "components/navigation";
+@use "components/navigation";
 
-@import "components/hero";
+@use "components/hero";
 
-@import "components/testimonial";
+@use "components/testimonial";
 
-@import "components/cta";
+@use "components/cta";
 
-@import "components/about";
+@use "components/about";
 
-@import "components/expertise";
+@use "components/expertise";
 
-@import "components/statement";
+@use "components/statement";
 
-@import "components/video";
+@use "components/video";
 
-@import "components/bio";
+@use "components/bio";
 
-@import "components/contact";
+@use "components/contact";
 
-@import "components/footer";
+@use "components/footer";

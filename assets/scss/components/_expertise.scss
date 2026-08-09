@@ -1,10 +1,13 @@
+@use "../mixins";
+@use "../variables";
+
 .site-expertise {
   padding: 100px 0;
-  background: $gray;
+  background: variables.$gray;
   &-list {
     padding: 0;
     margin: 10px 0 0 20px;
-    @include mobile {
+    @include mixins.mobile {
       text-align: center;
       margin: 0;
     }
@@ -12,7 +15,7 @@
       list-style: none;
       font-size: 25px;
       font-weight: 300;
-      color: $text-color-dark;
+      color: variables.$text-color-dark;
       &:not(:last-child) {
         margin-bottom: 10px;
       }

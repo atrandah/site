@@ -1,22 +1,25 @@
+@use "../mixins";
+@use "../variables";
+
 .site-hero {
   position: relative;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: $secondary-color;
+  background-color: variables.$secondary-color;
 
-  @include desktop {
+  @include mixins.desktop {
     height: auto;
     padding: 100px 0;
   }
 
-  @include mobile {
+  @include mixins.mobile {
     padding: 150px 0;
   }
 
   &-heading {
-    color: $white;
+    color: variables.$white;
     margin-bottom: 50px;
 
     h1 {
@@ -27,7 +30,7 @@
     }
 
     p {
-      color: $white;
+      color: variables.$white;
     }
   }
 
@@ -39,14 +42,14 @@
       li {
         display: inline-block;
 
-        @include mobile {
+        @include mixins.mobile {
           display: block;
         }
 
         &:not(:last-child) {
           margin-right: 30px;
 
-          @include mobile {
+          @include mixins.mobile {
             margin-right: 0;
             margin-bottom: 20px;
           }
@@ -55,7 +58,7 @@
         .btn {
           font-weight: 600;
 
-          @include mobile {
+          @include mixins.mobile {
             width: 90%;
             margin: 0 auto;
             display: block;

@@ -1,10 +1,13 @@
-.site-bio {
-  color: $black;
-  background: $white;
-  padding: $section-padding-desktop 0;
+@use "../mixins";
+@use "../variables";
 
-  @include mobile {
-    padding: $section-padding-mobile 0;
+.site-bio {
+  color: variables.$black;
+  background: variables.$white;
+  padding: variables.$section-padding-desktop 0;
+
+  @include mixins.mobile {
+    padding: variables.$section-padding-mobile 0;
   }
 
   &-image {

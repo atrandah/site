@@ -1,5 +1,8 @@
+@use "../mixins";
+@use "../variables";
+
 .site-footer {
-  background: $section-background-color;
+  background: variables.$section-background-color;
   padding: 100px 0;
 
   &-logo {
@@ -9,35 +12,35 @@
       max-width: 270px;
     }
 
-    @include mobile {
+    @include mixins.mobile {
       text-align: center;
     }
   }
 
   &-widget {
-    @include desktop {
+    @include mixins.desktop {
       margin-bottom: 40px;
     }
 
-    @include mobile {
+    @include mixins.mobile {
       text-align: center;
     }
 
     &-title {
-      color: $black;
+      color: variables.$black;
       margin-bottom: 30px;
 
-      @include desktop {
+      @include mixins.desktop {
         margin-bottom: 20px;
       }
     }
 
     &-description {
-      color: $black;
+      color: variables.$black;
       line-height: 30px;
 
       a {
-        color: $black;
+        color: variables.$black;
       }
     }
 
@@ -49,8 +52,8 @@
         list-style: none;
 
         a {
-          color: $black;
-          transition: all 0.3s $site-ease;
+          color: variables.$black;
+          transition: all 0.3s variables.$site-ease;
           display: block;
         }
 
@@ -63,7 +66,7 @@
     }
 
     &-top {
-      @include mobile {
+      @include mixins.mobile {
         text-align: center;
         display: block;
       }
@@ -73,7 +76,7 @@
       }
 
       p {
-        color: $black;
+        color: variables.$black;
       }
 
       &:hover {
@@ -84,20 +87,20 @@
 
   &-copyright {
     p {
-      color: $black;
+      color: variables.$black;
       margin: 50px auto 0;
       text-align: center;
     }
 
     a {
-      color: $text-color-dark;
+      color: variables.$text-color-dark;
       transition: all 0.3s ease;
 
-      @include tablet {
+      @include mixins.tablet {
         font-size: 20px;
       }
 
-      @include desktop {
+      @include mixins.desktop {
         margin-bottom: 70px;
       }
     }

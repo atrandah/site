@@ -1,5 +1,9 @@
+@use "sass:color";
+@use "mixins";
+@use "variables";
+
 .btn {
-  font-family: $secondary-font;
+  font-family: variables.$secondary-font;
   border: none;
   padding: 20px 45px;
   border-radius: 0;
@@ -8,7 +12,7 @@
     box-shadow: none;
   }
 
-  @include desktop {
+  @include mixins.desktop {
     padding: 17px 40px;
   }
 
@@ -67,20 +71,23 @@
 }
 
 .btn-primary {
-  background: $primary-color;
-  color: $black;
+  background: variables.$primary-color;
+  color: variables.$black;
 
   &:hover {
-    color: $black;
-    background: lighten($color: $primary-color, $amount: 10);
+    color: variables.$black;
+    background: color.adjust($color: variables.$primary-color, $lightness: 10%);
   }
 }
 
 .btn-secondary {
-  background: $secondary-color;
-  color: $white;
+  background: variables.$secondary-color;
+  color: variables.$white;
 
   &:hover {
-    background: darken($color: $secondary-color, $amount: 10);
+    background: color.adjust(
+      $color: variables.$secondary-color,
+      $lightness: -10%
+    );
   }
 }
