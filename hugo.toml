@@ -44,28 +44,6 @@ defaultContentLanguageInSubdir = true
     label = 'English'
     weight = 1
 
-    [languages.en.menu]
-      [[languages.en.menu.nav]]
-        name    = "Home"
-        url     = ""
-        weight  = 1
-      [[languages.en.menu.nav]]
-        name    = "About me"
-        url     = "about"
-        weight  = 2
-      [[languages.en.menu.nav]]
-        name    = "Lessons"
-        url     = "lessons"
-        weight  = 3
-      [[languages.en.menu.nav]]
-        name    = "Collaboration"
-        url     = "collaboration"
-        weight  = 4
-      [[languages.en.menu.nav]]
-        name    = "Get in touch"
-        url     = "contact"
-        weight  = 5
-
     [languages.en.params]
       description = "Alicja Tranda - vocal coach and vocalist based in Lodz, Poland (EU)"
 
@@ -190,28 +168,6 @@ defaultContentLanguageInSubdir = true
     locale = 'PL'
     label = 'Polish'
     weight = 2
-
-    [languages.pl.menu]
-      [[languages.pl.menu.nav]]
-        name    = "Strona główna"
-        url     = ""
-        weight  = 1
-      [[languages.pl.menu.nav]]
-        name    = "O mnie"
-        url     = "about"
-        weight  = 2
-      [[languages.pl.menu.nav]]
-        name    = "Lekcje"
-        url     = "lessons"
-        weight  = 3
-      [[languages.pl.menu.nav]]
-        name    = "Współpraca"
-        url     = "collaboration"
-        weight  = 4
-      [[languages.pl.menu.nav]]
-        name    = "Napisz do mnie"
-        url     = "contact"
-        weight  = 5
 
     [languages.pl.params]
       description = "Alicja Tranda - nauczycielka śpiewu i wokalistka z Łodzi (Polska, UE)"
