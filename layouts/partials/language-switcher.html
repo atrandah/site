@@ -1,7 +1,7 @@
 {{ if hugo.IsMultilingual }}
   {{ range .Translations }}
     <li class="nav-item">
-      <a class="nav-link" href="{{ .Permalink }}">{{ .Language.LanguageCode }}</a>
+      <a class="nav-link" href="{{ .Permalink }}">{{ .Language.Locale }}</a>
     </li>
   {{ end }}
 {{ end }}

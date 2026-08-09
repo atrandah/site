@@ -40,8 +40,8 @@ defaultContentLanguageInSubdir = true
 [languages]
   [languages.en]
     contentDir = 'content/english'
-    languageCode = 'EN'
-    languageName = 'English'
+    locale = 'EN'
+    label = 'English'
     weight = 1
 
     [languages.en.menu]
@@ -157,8 +157,8 @@ defaultContentLanguageInSubdir = true
 
   [languages.pl]
     contentDir = 'content/polish'
-    languageCode = 'PL'
-    languageName = 'Polish'
+    locale = 'PL'
+    label = 'Polish'
     weight = 2
 
     [languages.pl.menu]
