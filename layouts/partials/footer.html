@@ -4,39 +4,7 @@
       <div class="col-12">
         <div class="site-footer-logo"><a href="{{ .Site.BaseURL }}"><img src="{{ .Site.Params.logo_footer | absURL }}" alt="logo-footer"></a></div>
       </div>
-      {{ with .Site.Params.footer.contactInfo }}
-      <div class="col-lg-3 col-md-6">
-        <div class="site-footer-widget">
-          <h5 class="site-footer-widget-title">{{ .title }}</h5>
-          <p class="site-footer-widget-description">
-	    {{ if .address }}
-              {{ .address | safeHTML }}
-	      <br>
-	    {{ end }}
-	    {{ if .phone }}
-              <a href="tel:{{ .phone }}">{{ .phone }}</a>
-              <br>
-	    {{ end }}
-	    {{ if .email }}
-              <a href="mailto:{{ .email }}">{{ .email }}</a>
-	    {{ end }}
-          </p>
-        </div>
-      </div>
-      {{ end }}
-      {{ with .Site.Params.footer.sitemap }}
-      <div class="col-lg-2 col-md-6">
-        <div class="site-footer-widget">
-          <h5 class="site-footer-widget-title">{{ .title }}</h5>
-          <ul class="site-footer-widget-links">
-            {{ range .link }}
-            <li><a href="{{ .url | absURL }}">{{ .name }}</a></li>
-            {{ end }}
-          </ul>
-        </div>
-      </div>
-      {{ end }}
-      {{ with .Site.Params.footer.social }}
+      {{ with .Site.Params.footer.contact }}
       <div class="col-lg-2 col-md-6">
         <div class="site-footer-widget">
           <h5 class="site-footer-widget-title">{{ .title }}</h5>
@@ -44,7 +12,29 @@
             {{ range .link }}
               <li><a href="{{ .url }}">{{ .name }}</a></li>
             {{ end }}
+            {{ if .email }}
+              <li><a href="mailto:{{ .email }}">Mail</a></li>
+            {{ end }}
           </ul>
+
+        </div>
+      </div>
+      {{ end }}
+      {{ with .Site.Params.footer.other }}
+      <div class="col-lg-3 col-md-6">
+        <div class="site-footer-widget">
+          <h5 class="site-footer-widget-title">{{ .title }}</h5>
+          <p class="site-footer-widget-description">
+            {{ .description | safeHTML }}
+            <br>
+            {{ if .url }}
+              <a href="https://{{ .url }}">{{ .url }}</a>
+              <br>
+            {{ end }}
+            {{ if .address }}
+              {{ .address | safeHTML }}
+            {{ end }}
+          </p>
         </div>
       </div>
       {{ end }}
@@ -62,7 +52,7 @@
         <a href="#top" class="site-footer-widget-top">
           <img src="{{ "images/to-top.svg" | absURL }}" alt="back-to-top">
           <p>
-	    {{ .Site.Params.footer.back_to_top.description | safeHTML }}
+      {{ .Site.Params.footer.back_to_top.description | safeHTML }}
           </p>
         </a>
       </div>

@@ -37,6 +37,19 @@ defaultContentLanguageInSubdir = true
     enable           = true
     background_image = "images/backgrounds/cta-background.jpg"
 
+  [params.footer.contact]
+    email = "hello@alicjatranda.com"
+
+    [[params.footer.contact.link]]
+      name = "Facebook"
+      url  = "https://www.facebook.com/AlicjaTrandaVocalCoach"
+    [[params.footer.contact.link]]
+      name = "Instagram"
+      url  = "https://www.instagram.com/alicjatranda.vocalcoach/"
+    [[params.footer.contact.link]]
+      name = "YouTube"
+      url  = "https://www.youtube.com/@alicjatrandamusic"
+
 [languages]
   [languages.en]
     contentDir = 'content/english'
@@ -127,41 +140,21 @@ defaultContentLanguageInSubdir = true
       [languages.en.params.footer]
         qr_print = false
 
-        [languages.en.params.footer.contactInfo]
-          title   = "Contact Info"
-          address = "713 Elmwood St.<br>Prior Lake, MN 55372"
-          phone   = "409-896-1444"
-          email   = "info@roxo.co"
+        [languages.en.params.footer.contact]
+          title = "Contact"
 
-          [languages.en.params.footer.social]
-            title   = "Social Media"
-            [[languages.en.params.footer.social.link]]
-              name = "Facebook"
-              url  = "#"
-            [[languages.en.params.footer.social.link]]
-              name = "Instagram"
-              url  = "#"
+        [languages.en.params.footer.other]
+          title       = "ESW"
+          description = "Do you need a stationary in-person lesson? You will find me here!"
+          url         = "ekstremalnaszkolawokalna.pl"
+          address     = "Piwna 24, Łódź, Poland"
 
-          [languages.en.params.footer.sitemap]
-            title   = "Sitemap"
-            [[languages.en.params.footer.sitemap.link]]
-              name = "About me"
-              url  = "about"
-            [[languages.en.params.footer.sitemap.link]]
-              name = "Lessons"
-              url  = "lessons"
-            [[languages.en.params.footer.sitemap.link]]
-              name = "Collaboration"
-              url  = "collaboration"
-            [[languages.en.params.footer.sitemap.link]]
-              name = "Contact"
-              url  = "contact"
+        [languages.en.params.footer.service]
+          title       = "Online lessons"
+          description = "I also offer online lessons. Learn from anywhere. I'll adjust the schedule to fit you."
 
-          [languages.en.params.footer.service]
-            title       = "We help brands:"
-            description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
-          [languages.en.params.footer.back_to_top]
-            description = "I want to <br> visit again"
+        [languages.en.params.footer.back_to_top]
+          description = "I want to <br> visit again"
 
   [languages.pl]
     contentDir = 'content/polish'
@@ -254,38 +247,18 @@ defaultContentLanguageInSubdir = true
       [languages.pl.params.footer]
         qr_print = false
 
-        [languages.pl.params.footer.contactInfo]
-          title   = "Contact Info"
-          address = "713 Elmwood St.<br>Prior Lake, MN 55372"
-          phone   = "409-896-1444"
-          email   = "info@roxo.co"
+        [languages.pl.params.footer.contact]
+          title = "Kontakt"
 
-          [languages.pl.params.footer.social]
-            title   = "Social Media"
-            [[languages.pl.params.footer.social.link]]
-              name = "Facebook"
-              url  = "#"
-            [[languages.pl.params.footer.social.link]]
-              name = "Instagram"
-              url  = "#"
+        [languages.pl.params.footer.other]
+          title       = "ESW"
+          description = "Potrzebujesz stacjonarnej lekcji na żywo? Znajdziesz mnie tutaj!"
+          url         = "ekstremalnaszkolawokalna.pl"
+          address     = "Piwna 24, Łódź, Poland"
 
-          [languages.pl.params.footer.sitemap]
-            title   = "Sitemap"
-            [[languages.pl.params.footer.sitemap.link]]
-              name = "About me"
-              url  = "about"
-            [[languages.pl.params.footer.sitemap.link]]
-              name = "Lessons"
-              url  = "lessons"
-            [[languages.pl.params.footer.sitemap.link]]
-              name = "Collaboration"
-              url  = "collaboration"
-            [[languages.pl.params.footer.sitemap.link]]
-              name = "Contact"
-              url  = "contact"
+        [languages.pl.params.footer.service]
+          title       = "Lekcje online"
+          description = "Oferuję również lekcje online. Ucz się z dowolnego miejsca. Terminy dopasuję do Ciebie."
 
-          [languages.pl.params.footer.service]
-            title       = "We help brands:"
-            description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
-          [languages.pl.params.footer.back_to_top]
-            description = "I want to <br> visit again"
+        [languages.pl.params.footer.back_to_top]
+          description = "Wróć na górę"
