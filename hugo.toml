@@ -67,7 +67,7 @@ defaultContentLanguageInSubdir = true
         weight  = 5
 
     [languages.en.params]
-      description = "Hugo Cadence is a Hugo theme for creative individuals."
+      description = "Alicja Tranda - vocal coach and vocalist based in Lodz, Poland (EU)"
 
       [languages.en.params.contactForm]
         placeholder_first_name = "First Name"
@@ -92,21 +92,51 @@ defaultContentLanguageInSubdir = true
       [languages.en.params.statement]
         enable  = true
         heading = "Free your voice with me"
-        content = "On the one hand, all you need to do is say what you mean, in your words, in your voice. On the other, there are so many rules to consider! Are you thinking of keywords you should rank for? Are you including links in your text to additional information? Do those links refer back to your own website, which helps boost your SEO? Is what you’ve written easy to scan? There’s a theory that people read in an F-shape pattern, and that this should influence how you structure content on your website. Lots of ins and outs—it’s no wonder writers rule the world."
+        content = """
+          Do you feel your voice cannot reach its full potential? Do you
+          struggle with high notes and strain your voice? Do you need more
+          power… or you have a powerful voice, but cannot control it? Do you
+          dream of a free, capable voice with vast range - ready for stage and
+          studio demands?  Let me guide you in this process of building a strong
+          foundation for your artistic development. I work with singers who want
+          to unlock the best in their voices. I believe everyone can sing - you
+          need a tailored practice to blossom truly.
+          """
 
       [languages.en.params.bio]
         enable             = true
         heading            = "About me"
         primary_button     = "Full bio"
         primary_button_url = "about"
-        content            = "Alicja is a vocalist and vocal coach specialising in contemporary and rock vocal performance. She is a Level 3 Modern Vocal Training coach with several years of experience, working with singers at all levels, individually and in groups. Alicja is constantly improving her skills under the supervision of specialists from around the world, studying diverse approaches to voice. Her additional professional training includes courses in music production and songwriting. As a vocalist, dancer and actress, she has performed in theatre productions, concerts, and experimental art projects. Currently, Alicja is co-founding Ekstremalna Szkoła Wokalna (Extreme Vocal School) in Lodz and continues to develop her own artistic work."
+        content            = """
+          Alicja is a vocalist and vocal coach specialising in contemporary and
+          rock vocal performance. She is a Level 3 Modern Vocal Training coach
+          with several years of experience, working with singers at all levels,
+          individually and in groups. Alicja is constantly improving her skills
+          under the supervision of specialists from around the world, studying
+          diverse approaches to voice. Her additional professional training
+          includes courses in music production and songwriting. As a vocalist,
+          dancer and actress, she has performed in theatre productions,
+          concerts, and experimental art projects. Currently, Alicja is
+          co-founding Ekstremalna Szkoła Wokalna (Extreme Vocal School) in Lodz
+          and continues to develop her own artistic work.
+          """
 
       [languages.en.params.lessons]
         enable             = true
         heading            = "Vocal coaching  for singers / online lessons"
         primary_button     = "Sign me in"
         primary_button_url = "lessons"
-        content            = "When there’s one great thing, there’s usually another. What’s your second thing to showcase? When there’s one great thing, there’s usually another. What’s your second thing to showcase? When there’s one great thing, there’s usually another. What’s your second thing to showcase? When there’s one great thing, there’s usually another. What’s your second thing to showcase? When there’s one great thing, there’s usually another. What’s your second thing to showcase? When there’s one great thing, there’s usually another. What’s your second thing to showcase?"
+        content            = """
+          No matter how experienced you are, together we will find solutions to
+          improve your voice. During lessons, we work toward your goals - every lesson is
+          created for your growth. Your vocal abilities expand through scales, song
+          fragments, and many other exercises. You will learn how to work on your voice
+          between our sessions, becoming more aware of your vocal health, growing your
+          stamina, and overcoming stage fright! My role as a vocal coach is to create an
+          environment where you can develop your unique sound and explore new
+          possibilities.
+          """
 
       [languages.en.params.call_to_action]
         enable               = true
@@ -184,7 +214,7 @@ defaultContentLanguageInSubdir = true
         weight  = 5
 
     [languages.pl.params]
-      description = "Hugo Cadence is a Hugo theme for creative individuals."
+      description = "Alicja Tranda - nauczycielka śpiewu i wokalistka z Łodzi (Polska, UE)"
 
       [languages.pl.params.contactForm]
         placeholder_first_name = "First Name"
@@ -201,29 +231,61 @@ defaultContentLanguageInSubdir = true
 
       [languages.pl.params.banner]
         enable             = true
-        heading            = "Alicja Tranda Vocal Coach"
-        description        = "Singing teacher and vocalist based in Lodz, Poland (EU)."
-        primary_button     = "Contact"
+        heading            = "Alicja Tranda"
+        description        = "Nauczycielka śpiewu i wokalistka z Łodzi (Polska, UE)."
+        primary_button     = "Kontakt"
         primary_button_url = "contact"
 
       [languages.pl.params.statement]
         enable  = true
-        heading = "Free your voice with me"
-        content = "On the one hand, all you need to do is say what you mean, in your words, in your voice. On the other, there are so many rules to consider! Are you thinking of keywords you should rank for? Are you including links in your text to additional information? Do those links refer back to your own website, which helps boost your SEO? Is what you’ve written easy to scan? There’s a theory that people read in an F-shape pattern, and that this should influence how you structure content on your website. Lots of ins and outs—it’s no wonder writers rule the world."
+        heading = "Uwolnij swój głos ze mną"
+        content = """
+          Czujesz, że Twój głos nie wykorzystuje pełni swojego potencjału? Masz
+          trudności z wysokimi dźwiękami i nadwyrężasz głos? Potrzebujesz więcej
+          mocy… a może masz mocny głos, ale nie potrafisz nad nim zapanować?
+          Marzysz o wolnym, sprawnym głosie o szerokiej skali - gotowym na
+          wyzwania sceny i studia? Pozwól, że poprowadzę Cię w procesie budowania
+          solidnych podstaw Twojego artystycznego rozwoju. Pracuję z wokalistami,
+          którzy chcą wydobyć ze swojego głosu to, co najlepsze. Wierzę, że każdy
+          może śpiewać - potrzebujesz jedynie praktyki dopasowanej do Ciebie, by
+          w pełni rozkwitnąć.
+          """
 
       [languages.pl.params.bio]
         enable             = true
-        heading            = "About me"
-        primary_button     = "Full bio"
+        heading            = "O mnie"
+        primary_button     = "Pełne bio"
         primary_button_url = "about"
-        content            = "On the one hand, all you need to do is say what you mean, in your words, in your voice. On the other, there are so many rules to consider! Are you thinking of keywords you should rank for? Are you including links in your text to additional information? Do those links refer back to your own website, which helps boost your SEO? Is what you’ve written easy to scan? There’s a theory that people read in an F-shape pattern, and that this should influence how you structure content on your website. Lots of ins and outs—it’s no wonder writers rule the world."
+        content            = """
+          Alicja jest wokalistką i trenerką wokalną specjalizującą się we
+          współczesnym i rockowym śpiewie. Jest trenerką Modern Vocal Training na
+          poziomie 3 z wieloletnim doświadczeniem, pracującą z wokalistami na
+          każdym poziomie zaawansowania, indywidualnie i w grupach. Alicja
+          nieustannie doskonali swoje umiejętności pod okiem specjalistów z całego
+          świata, zgłębiając różnorodne podejścia do pracy z głosem. Jej
+          dodatkowe szkolenia zawodowe obejmują kursy z produkcji muzycznej i
+          pisania piosenek. Jako wokalistka, tancerka i aktorka występowała w
+          spektaklach teatralnych, koncertach i eksperymentalnych projektach
+          artystycznych. Obecnie Alicja współtworzy Ekstremalną Szkołę Wokalną w
+          Łodzi i wciąż rozwija swoją własną twórczość artystyczną.
+          """
 
       [languages.pl.params.lessons]
         enable             = true
-        heading            = "Vocal coaching  for singers / online lessons"
-        primary_button     = "Sign me in"
+        heading            = "Trening wokalny dla wokalistów / lekcje online"
+        primary_button     = "Zapisz mnie"
         primary_button_url = "lessons"
-        content            = "When there’s one great thing, there’s usually another. What’s your second thing to showcase? When there’s one great thing, there’s usually another. What’s your second thing to showcase? When there’s one great thing, there’s usually another. What’s your second thing to showcase? When there’s one great thing, there’s usually another. What’s your second thing to showcase? When there’s one great thing, there’s usually another. What’s your second thing to showcase? When there’s one great thing, there’s usually another. What’s your second thing to showcase?"
+        content            = """
+          Niezależnie od Twojego doświadczenia, wspólnie znajdziemy rozwiązania,
+          które poprawią Twój głos. Podczas lekcji pracujemy nad Twoimi celami -
+          każda lekcja jest tworzona z myślą o Twoim rozwoju. Twoje możliwości
+          wokalne poszerzają się dzięki skalom, fragmentom piosenek i wielu innym
+          ćwiczeniom. Nauczysz się, jak pracować nad głosem między naszymi
+          spotkaniami, stając się bardziej świadomy zdrowia swojego głosu,
+          budując wytrzymałość i pokonując tremę! Moją rolą jako trenerki wokalnej
+          jest stworzenie przestrzeni, w której możesz rozwijać swoje unikalne
+          brzmienie i odkrywać nowe możliwości.
+          """
 
       [languages.pl.params.call_to_action]
         enable               = true
