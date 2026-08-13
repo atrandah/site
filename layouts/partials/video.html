@@ -1,22 +1,24 @@
 {{ with .Site.Params.video }}
-  {{ if .enable }}
-  <section class="site-video" id="video">
-    <div class="container py-5">
-      <div class="row justify-content-center">
-        <div class="col-md-10 col-lg-8">
-          <div class="ratio ratio-16x9">
-            <iframe
-              src="{{ .video_url }}"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen>
-            </iframe>
-          </div>
+{{ if .enable }}
+<section class="site-video" id="video">
+  <div class="container py-5">
+    <div class="row justify-content-center g-4 g-lg-5">
+      {{ range .link }}
+      <div class="col-md">
+        <div class="ratio ratio-16x9">
+          <iframe
+            src="{{ .url }}"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+          </iframe>
         </div>
       </div>
+      {{ end }}
     </div>
-  </section>
-  {{ end }}
+  </div>
+</section>
+{{ end }}
 {{ end }}

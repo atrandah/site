@@ -25,8 +25,14 @@ defaultContentLanguageInSubdir = true
     hero_image = "images/hero.jpg"
 
   [params.video]
-    enable    = true
-    video_url = "https://www.youtube.com/embed/T27XggtdVaQ"
+    enable = true
+
+    [[params.video.link]]
+      url = "https://www.youtube.com/embed/T27XggtdVaQ"
+    [[params.video.link]]
+      url = "https://www.youtube.com/embed/uinGXAnFpvw"
+    [[params.video.link]]
+      url = "https://www.youtube.com/embed/T27XggtdVaQ"
 
   [params.bio]
     bio_image = "images/bio.jpg"
