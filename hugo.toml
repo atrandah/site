@@ -196,15 +196,15 @@ defaultContentLanguageInSubdir = true
         enable  = true
         heading = "Uwolnij swój głos ze mną"
         content = """
-          Czujesz, że Twój głos nie wykorzystuje pełni swojego potencjału? Masz
-          trudności z wysokimi dźwiękami i nadwyrężasz głos? Potrzebujesz więcej
-          mocy… a może masz mocny głos, ale nie potrafisz nad nim zapanować?
-          Marzysz o wolnym, sprawnym głosie o szerokiej skali - gotowym na
-          wyzwania sceny i studia? Pozwól, że poprowadzę Cię w procesie budowania
-          solidnych podstaw Twojego artystycznego rozwoju. Pracuję z wokalistami,
-          którzy chcą wydobyć ze swojego głosu to, co najlepsze. Wierzę, że każdy
-          może śpiewać - potrzebujesz jedynie praktyki dopasowanej do Ciebie, by
-          w pełni rozkwitnąć.
+          Czujesz, że nie wykorzystujesz w pełni potencjału swojego głosu? Miewasz kłopoty
+          z wysokimi dźwiękami i zdarza Ci się nadwyrężyć krtań? Masz wrażenie, że Twój
+          głos nie jest dostatecznie mocny… albo masz tzw. “kawał głosu”, ale trudno Ci
+          nad nim zapanować? Marzysz o szerokiej skali i o barwie, którą możesz wyrazić co
+          tylko zechcesz? Planujesz przygotować się na wyzwania sceny, castingu lub studia
+          nagraniowego? Pozwól, że poprowadzę Cię w procesie budowania solidnych podstaw
+          Twojego artystycznego rozwoju. Pracuję z wokalistami, którzy chcą wydobyć ze
+          swojego głosu to, co najlepsze. Wierzę, że każdy może śpiewać - potrzebujesz
+          treningu dopasowanego do swoich potrzeb, by w pełni rozkwitnąć.
           """
 
       [languages.pl.params.bio]
