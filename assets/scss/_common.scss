@@ -54,10 +54,6 @@ body {
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 15px;
-
-    @include mixins.desktop {
-      font-size: 40px;
-    }
   }
 
   p {
