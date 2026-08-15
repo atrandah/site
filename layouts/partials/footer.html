@@ -1,9 +1,6 @@
 <footer class="site-footer">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12">
-        <div class="site-footer-logo"><a href="{{ .Site.BaseURL }}"><img src="{{ .Site.Params.logo_footer | absURL }}" alt="logo-footer"></a></div>
-      </div>
       {{ with .Site.Params.footer.contact }}
       <div class="col-lg-2 col-md-6">
         <div class="site-footer-widget">
@@ -57,27 +54,6 @@
         </a>
       </div>
     </div>
-    {{ if .Site.Params.footer.qr_print }}
-    <div class="row d-none d-print-block">
-      <div class="col col-lg-2">
-        {{ $qrcode := resources.Get "js/qrcode.js" | minify }}
-        <script src="{{ $qrcode.Permalink }}"></script>
-
-        <div id="qrcode">
-          <script type="text/javascript">
-            new QRCode(document.getElementById("qrcode"), {
-              text: "{{ .Page.RelPermalink | absURL }}",
-              width: 128,
-              height: 128,
-            });
-          </script>
-        </div>
-      </div>
-      <div class="col col-md-auto">
-        {{ .Page.RelPermalink | absURL }}
-      </div>
-    </div>
-    {{ end }}
   </div>
 </footer>
 

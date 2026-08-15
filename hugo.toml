@@ -145,7 +145,6 @@ defaultContentLanguageInSubdir = true
         secondary_button_url = "portfolio"
 
       [languages.en.params.footer]
-        qr_print = false
 
         [languages.en.params.footer.contact]
           title = "Contact"
@@ -254,7 +253,6 @@ defaultContentLanguageInSubdir = true
         secondary_button_url = "portfolio"
 
       [languages.pl.params.footer]
-        qr_print = false
 
         [languages.pl.params.footer.contact]
           title = "Kontakt"
