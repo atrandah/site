@@ -44,18 +44,21 @@ defaultContentLanguageInSubdir = true
     enable           = true
     background_image = "images/backgrounds/cta-background.jpg"
 
-  [params.footer.contact]
-    email = "hello@alicjatranda.com"
+  [params.footer]
+    copyright = "Alicja Tranda "
 
-    [[params.footer.contact.link]]
-      name = "Facebook"
-      url  = "https://www.facebook.com/AlicjaTrandaVocalCoach"
-    [[params.footer.contact.link]]
-      name = "Instagram"
-      url  = "https://www.instagram.com/alicjatranda.vocalcoach/"
-    [[params.footer.contact.link]]
-      name = "YouTube"
-      url  = "https://www.youtube.com/@alicjatrandamusic"
+    [params.footer.contact]
+      email = "hello@alicjatranda.com"
+
+      [[params.footer.contact.link]]
+        name = "Facebook"
+        url  = "https://www.facebook.com/AlicjaTrandaVocalCoach"
+      [[params.footer.contact.link]]
+        name = "Instagram"
+        url  = "https://www.instagram.com/alicjatranda.vocalcoach/"
+      [[params.footer.contact.link]]
+        name = "YouTube"
+        url  = "https://www.youtube.com/@alicjatrandamusic"
 
 [languages]
   [languages.en]
