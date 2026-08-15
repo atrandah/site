@@ -13,7 +13,7 @@
             <div class="section-title">
               <h2>{{ .heading }}</h2>
             </div>
-            <span>{{ .content }}</span>
+            <span>{{ .content | safeHTML }}</span>
           </div>
 
           <a href="{{ .primary_button_url | absLangURL }}"
