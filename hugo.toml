@@ -197,12 +197,13 @@ defaultContentLanguageInSubdir = true
         heading = "Uwolnij swój głos ze mną"
         content = """
           Czujesz, że nie wykorzystujesz w pełni potencjału swojego głosu?
-          Marzysz o szerokiej skali i dźwięcznej barwie? Planujesz przygotować się
-          na wyzwania sceny, castingu lub studia nagraniowego?
-          Pozwól, że poprowadzę Cię w procesie budowania solidnych podstaw
-          Twojego artystycznego rozwoju. Pracuję z wokalistami, którzy chcą wydobyć ze
-          swojego głosu to, co najlepsze. Wierzę, że każdy może śpiewać - potrzebujesz
-          treningu dopasowanego do swoich potrzeb, by w pełni rozkwitnąć.
+          Marzysz o szerokiej skali i dźwięcznej barwie? Planujesz przygotować
+          się na wyzwania sceny, castingu lub studia nagraniowego? Pozwól, że
+          poprowadzę Cię w procesie budowania solidnych podstaw Twojego
+          artystycznego rozwoju. Pracuję z wokalistami, którzy chcą wydobyć ze
+          swojego głosu to, co najlepsze. Wierzę, że każdy może śpiewać -
+          potrzebujesz treningu dopasowanego do swoich potrzeb, by w pełni
+          rozkwitnąć.
           """
 
       [languages.pl.params.bio]
@@ -211,19 +212,19 @@ defaultContentLanguageInSubdir = true
         primary_button     = "Pełne bio"
         primary_button_url = "about"
         content            = """
-        Alicja jest wokalistką i trenerką wokalną specjalizującą się w śpiewie rozrywkowym i rockowym.
-        Jest trenerką Modern Vocal Training na poziomie 3 (advanced) z wieloletnim doświadczeniem,
-        pracującą z wokalistami na każdym poziomie zaawansowania, zarówno indywidualnie, jak i w grupach.
-        Alicja nieustannie doskonali swoje umiejętności pod okiem specjalistów z całego świata.
-        Poszerza swoje horyzonty poznając różne metody pracy z głosem i ciałem:
-        na warsztatach, kursach i konferencjach naukowych.
-        Jej dodatkowe szkolenia obejmują m.in. kursy produkcji muzycznej, pisania piosenek,
-        aktorskie i Estill poziom 1 i 2.
-        Jako wokalistka, tancerka i aktorka występowała w spektaklach teatralnych,
-        koncertach i eksperymentalnych projektach artystycznych.
-        Obecnie Alicja współtworzy Ekstremalną Szkołę Wokalną Ady Rusinkiewicz w Łodzi
-        i rozwija własną twórczość artystyczną.
-
+          Alicja jest wokalistką i trenerką wokalną specjalizującą się w śpiewie
+          rozrywkowym i rockowym. Jest trenerką Modern Vocal Training na poziomie
+          3 (advanced) z wieloletnim doświadczeniem, pracującą z wokalistami na
+          każdym poziomie zaawansowania, zarówno indywidualnie, jak i w grupach.
+          Alicja nieustannie doskonali swoje umiejętności pod okiem specjalistów z
+          całego świata. Poszerza swoje horyzonty poznając różne metody pracy z
+          głosem i ciałem: na warsztatach, kursach i konferencjach naukowych. Jej
+          dodatkowe szkolenia obejmują m.in. kursy produkcji muzycznej, pisania
+          piosenek, aktorskie i Estill poziom 1 i 2. Jako wokalistka, tancerka i
+          aktorka występowała w spektaklach teatralnych, koncertach i
+          eksperymentalnych projektach artystycznych. Obecnie Alicja współtworzy
+          Ekstremalną Szkołę Wokalną Ady Rusinkiewicz w Łodzi i rozwija własną
+          twórczość artystyczną.
           """
 
       [languages.pl.params.lessons]
@@ -232,17 +233,16 @@ defaultContentLanguageInSubdir = true
         primary_button     = "Zapisz mnie"
         primary_button_url = "lessons"
         content            = """
-          Niezależnie od Twojego doświadczenia znajdziemy rozwiązania,
-          które sprawią, że Twój śpiew wzniesie się na wyższy poziom.
-          Podczas zajęć określamy cele i pracujemy nad nimi - każda lekcja
-          tworzona jest z myślą o Twoim rozwoju. Twoje możliwości wokalne
-          poszerzą się dzięki indywidualnie dobranym skalom i fragmentom piosenek.
-          Nauczysz się, jak pracować nad głosem między naszymi spotkaniami,
-          dowiesz się, jak zadbać o swoje zdrowie wokalne, zbudujesz większą
-          wytrzymałość i zdobędziesz narzędzia, dzięki którym pokonasz tremę!
-          Moją rolą, jako trenerki wokalnej, jest stworzenie warunków,
-          w których możesz rozwijać swoje unikalne brzmienie i odkrywać nowe możliwości.
-
+          Niezależnie od Twojego doświadczenia znajdziemy rozwiązania, które
+          sprawią, że Twój śpiew wzniesie się na wyższy poziom. Podczas zajęć
+          określamy cele i pracujemy nad nimi - każda lekcja tworzona jest z
+          myślą o Twoim rozwoju. Twoje możliwości wokalne poszerzą się dzięki
+          indywidualnie dobranym skalom i fragmentom piosenek. Nauczysz się, jak
+          pracować nad głosem między naszymi spotkaniami, dowiesz się, jak
+          zadbać o swoje zdrowie wokalne, zbudujesz większą wytrzymałość i
+          zdobędziesz narzędzia, dzięki którym pokonasz tremę! Moją rolą, jako
+          trenerki wokalnej, jest stworzenie warunków, w których możesz rozwijać
+          swoje unikalne brzmienie i odkrywać nowe możliwości.
           """
 
       [languages.pl.params.call_to_action]
