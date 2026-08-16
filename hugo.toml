@@ -48,7 +48,7 @@ defaultContentLanguageInSubdir = true
     copyright = "Alicja Tranda "
 
     [params.footer.contact]
-      email = "hello@alicjatranda.com"
+      email = "mail@alicjatranda.com"
 
       [[params.footer.contact.link]]
         name = "Facebook"
