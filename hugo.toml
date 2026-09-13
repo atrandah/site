@@ -125,7 +125,6 @@ defaultContentLanguageInSubdir = true
         enable             = true
         heading            = "Vocal coaching for singers / online lessons"
         primary_button     = "Sign me in"
-        primary_button_url = "lessons"
         content            = """
           Do you need to refine your song interpretation before a show or
           audition? Are you recording your own material and something feels off?
@@ -237,7 +236,6 @@ defaultContentLanguageInSubdir = true
         enable             = true
         heading            = "Lekcje śpiewu dla wokalistów / trening online"
         primary_button     = "Zapisz mnie"
-        primary_button_url = "lessons"
         content            = """
           Chcesz dopracować interpretację utworu przed występem lub castingiem?
           Nagrywasz autorski materiał i słyszysz, że coś w Twoim głosie jeszcze
