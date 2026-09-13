@@ -102,8 +102,6 @@ defaultContentLanguageInSubdir = true
       [languages.en.params.bio]
         enable             = true
         heading            = "About me"
-        primary_button     = "Full bio"
-        primary_button_url = "about"
         content            = """
           Alicja is a vocalist and vocal coach specialising in contemporary and
           rock vocal performance. She is a Level 3 (advanced) Modern Vocal
@@ -222,8 +220,6 @@ defaultContentLanguageInSubdir = true
       [languages.pl.params.bio]
         enable             = true
         heading            = "O mnie"
-        primary_button     = "Pełne bio"
-        primary_button_url = "about"
         content            = """
           Alicja jest wokalistką i trenerką wokalną specjalizującą się w śpiewie
           rozrywkowym i rockowym. Jest trenerką Modern Vocal Training na
