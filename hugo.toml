@@ -40,10 +40,6 @@ defaultContentLanguageInSubdir = true
   [params.lessons]
     lessons_image = "images/lessons.jpg"
 
-  [params.call_to_action]
-    enable           = true
-    background_image = "images/backgrounds/cta-background.jpg"
-
   [params.footer]
     copyright = "Alicja Tranda "
 
@@ -151,14 +147,6 @@ defaultContentLanguageInSubdir = true
           environment where you can develop your unique sound and explore new
           possibilities.
           """
-
-      [languages.en.params.call_to_action]
-        enable               = true
-        title                = "LET’S WORK TOGETHER"
-        primary_button       = "Submit Query"
-        primary_button_url   = "contact"
-        secondary_button     = "Not Convinced"
-        secondary_button_url = "portfolio"
 
       [languages.en.params.footer]
 
@@ -275,14 +263,6 @@ defaultContentLanguageInSubdir = true
           stworzenie warunków, w których możesz rozwijać swoje unikalne
           brzmienie i odkrywać nowe możliwości.
           """
-
-      [languages.pl.params.call_to_action]
-        enable               = true
-        heading              = "LET’S WORK TOGETHER"
-        primary_button       = "Submit Query"
-        primary_button_url   = "contact"
-        secondary_button     = "Not Convinced"
-        secondary_button_url = "portfolio"
 
       [languages.pl.params.footer]
 
