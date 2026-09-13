@@ -10,9 +10,10 @@
       <div class="col-lg-6 ml-auto">
         <div class="site-contact-form">
           <h4>{{ .Params.form_heading }}</h4>
-          <form id="contact-form" action="{{ .Site.Params.fabform }}" method="post">
+          <form id="contact-form" action="https://api.web3forms.com/submit" method="post">
             <div class="row">
               <div class="col-lg-6">
+                <input type="hidden" name="access_key" value="{{ .Site.Params.formKey }}">
                 <input type="text"
                   class="form-control"
                   name="first-name"
@@ -41,15 +42,15 @@
                   class="form-control"
                   name="phone"
                   id="phone"
-                  placeholder="{{ .Site.Params.contactForm.placeholder_phone }}"
-                  required>
+                  placeholder="{{ .Site.Params.contactForm.placeholder_phone }}">
               </div>
               <div class="col-12">
                 <textarea class="form-control"
                   id="message"
                   name="message"
                   rows="6"
-                  placeholder="{{ .Site.Params.contactForm.placeholder_message }}">
+                  placeholder="{{ .Site.Params.contactForm.placeholder_message }}"
+                  required>
                 </textarea>
               </div>
               <div class="col-12">

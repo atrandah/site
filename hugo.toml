@@ -19,7 +19,7 @@ defaultContentLanguageInSubdir = true
   dateFormat = "26 FEB 1994"
   author = "Alicja Tranda"
   googleAnalitycsID = "Your ID"
-  fabform  = "https://fabform.io/f/xM-wwPg"
+  formKey = "7ff10cdf-9c8e-413b-914c-9b576b145c67"
 
   [params.banner]
     hero_image = "images/hero.jpg"
