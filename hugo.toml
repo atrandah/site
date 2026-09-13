@@ -99,7 +99,7 @@ defaultContentLanguageInSubdir = true
           studio demands? Let me guide you in this process of building a strong
           foundation for your artistic development. I work with singers who want
           to unlock the best in their voices. I believe everyone can sing - you
-          need a tailored practice to blossom truly.
+          need a tailored practice to truly blossom.
           """
 
       [languages.en.params.bio]
@@ -117,7 +117,7 @@ defaultContentLanguageInSubdir = true
           under the supervision of specialists from around the world, studying
           diverse approaches to voice. Her additional professional training
           includes courses in music production, songwriting, acting and Estill level 1 & 2.
-          As a vocalist, dancer and actress, she has performed in theatre productions,
+          As a vocalist, dancer and actress, she has performed in off-theatre productions,
           concerts, and experimental art projects.
 
           Currently, Alicja is co-founding Ekstremalna Szkoła Wokalna
@@ -144,11 +144,10 @@ defaultContentLanguageInSubdir = true
           between our sessions, become more aware of your vocal health, grow your
           stamina, and overcome stage fright!
 
-          We can work not only on your mixed voice (smooth transition between
-          your lower and higher range), but also on belt and some rock effects
-          like distortion.
+          We can develop your range, build balanced registration (mixed voice),
+          and also prepare you for belting or add some rock effects like distortion.
 
-          My role as a vocal coach is to create an environment where you
+          My role as a vocal coach and singing teacher is to create an environment where you
           can develop your unique sound and explore new possibilities.
 
           """
@@ -186,7 +185,7 @@ defaultContentLanguageInSubdir = true
     weight = 2
 
     [languages.pl.params]
-      description = "Alicja Tranda - nauczycielka śpiewu i wokalistka z Łodzi (Polska, UE)"
+      description = "Alicja Tranda - trenerka wokalna i wokalistka z Łodzi (Polska, UE)"
 
       [languages.pl.params.contactForm]
         placeholder_first_name = "First Name"
@@ -204,7 +203,7 @@ defaultContentLanguageInSubdir = true
       [languages.pl.params.banner]
         enable             = true
         heading            = "Alicja Tranda"
-        description        = "Nauczycielka śpiewu i wokalistka z Łodzi (Polska, UE)."
+        description        = "Trenerka wokalna i wokalistka z Łodzi (Polska, UE)."
         primary_button     = "Kontakt"
         primary_button_url = "contact"
 
@@ -228,19 +227,20 @@ defaultContentLanguageInSubdir = true
         primary_button     = "Pełne bio"
         primary_button_url = "about"
         content            = """
-        Alicja jest wokalistką i trenerką wokalną specjalizującą się w śpiewie rozrywkowym i rockowym.
-        Jest trenerką Modern Vocal Training na poziomie 3 (zaawansowanym) z wieloletnim doświadczeniem,
-        pracującą z wokalistami na każdym poziomie zaawansowania, zarówno indywidualnie, jak i w grupach.
+        Alicja jest wokalistką i trenerką wokalną specjalizującą się w śpiewie rozrywkowym
+        i rockowym. Jest trenerką Modern Vocal Training na poziomie 3 (zaawansowanym)
+        z wieloletnim doświadczeniem, pracującą z wokalistami na każdym poziomie zaawansowania,
+        zarówno indywidualnie, jak i w grupach.
 
         Alicja nieustannie doskonali swoje umiejętności pod okiem specjalistów z całego świata.
         Poszerza swoje horyzonty poznając różne metody pracy z głosem i ciałem:
         na warsztatach, kursach i konferencjach naukowych.
         Jej dodatkowe szkolenia obejmują m.in. kursy produkcji muzycznej, pisania piosenek,
         aktorskie i Estill poziom 1 i 2.
-        Jako wokalistka, tancerka i aktorka występowała w spektaklach teatralnych,
+        Jako wokalistka, tancerka i aktorka występowała w offowych spektaklach teatralnych,
         koncertach i eksperymentalnych projektach artystycznych.
 
-        Obecnie Alicja współtworzy Ekstremalną Szkołę Wokalną Ady Rusinkiewicz w Łodzi
+        Obecnie Alicja współtworzy Ekstremalną Szkołę Wokalną w Łodzi
         z Adą Rusinkiewicz i Pauliną Glinką
         oraz rozwija własną twórczość artystyczną.
           """
@@ -264,11 +264,10 @@ defaultContentLanguageInSubdir = true
           dowiesz się, jak zadbać o swoje zdrowie wokalne, zbudujesz większą
           wytrzymałość i zdobędziesz narzędzia, dzięki którym pokonasz tremę!
 
-          Możemy rozwinąć nie tylko Twój rejestr mieszany (płynne przejście między
-          niskimi i wysokimi dźwiękami), ale także przygotować Twój głos pod belt
-          oraz efekty rockowe takie jak distortion.
+          Rozwiniemy skalę Twojego głosu, zbudujemy płynne przejście między rejestrami (tzw. mix),
+          a także możemy przygotować Cię pod belting oraz dodamy efekty rockowe takie jak distortion.
 
-          Moją rolą, jako trenerki wokalnej, jest stworzenie warunków,
+          Moją rolą, jako trenerki wokalnej i nauczycielki śpiewu, jest stworzenie warunków,
           w których możesz rozwijać swoje unikalne brzmienie i odkrywać nowe możliwości.
           """
 
