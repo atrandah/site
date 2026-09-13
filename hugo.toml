@@ -94,9 +94,11 @@ defaultContentLanguageInSubdir = true
         enable  = true
         heading = "Free your voice with me"
         content = """
-          Do you feel your voice cannot reach its full potential? Do you
-          dream of a free, capable voice with vast range - ready for stage and
-          studio demands? Let me guide you in this process of building a strong
+          Do you feel your voice cannot reach its full potential? Do you dream
+          of a free, capable voice with vast range - ready for stage and studio
+          demands?
+          <br><br>
+          Let me guide you in this process of building a strong
           foundation for your artistic development. I work with singers who want
           to unlock the best in their voices. I believe everyone can sing - you
           need a tailored practice to truly blossom.
@@ -109,25 +111,25 @@ defaultContentLanguageInSubdir = true
         primary_button_url = "about"
         content            = """
           Alicja is a vocalist and vocal coach specialising in contemporary and
-          rock vocal performance. She is a Level 3 (advanced) Modern Vocal Training coach
-          with several years of experience, working with singers at all levels,
-          individually and in groups.
-
-          Alicja is constantly improving her skills
-          under the supervision of specialists from around the world, studying
-          diverse approaches to voice. Her additional professional training
-          includes courses in music production and songwriting.
-          As a vocalist, dancer and actress, she has performed in off-theatre productions,
-          concerts, and experimental art projects.
-
-          Alicja continues her career development at the highest Modern Vocal Training Level 4,
-          and this year she conducted individual lessons at the largest singing camp
-          for adults in the world - European Vocal Camp.
-
-          Currently, Alicja is co-founding Ekstremalna Szkoła Wokalna
-          (Extreme Vocal School) in Lodz
-          with Ada Rusinkiewicz and Paulina Glinka
-          and continues to develop her own artistic work.
+          rock vocal performance. She is a Level 3 (advanced) Modern Vocal
+          Training coach with several years of experience, working with singers
+          at all levels, individually and in groups.
+          <br><br>
+          Alicja is constantly improving her skills under the supervision of
+          specialists from around the world, studying diverse approaches to
+          voice. Her additional professional training includes courses in music
+          production and songwriting. As a vocalist, dancer and actress, she has
+          performed in off-theatre productions, concerts, and experimental art
+          projects.
+          <br><br>
+          Alicja continues her career development at the highest Modern Vocal
+          Training Level 4, and this year she conducted individual lessons at
+          the largest singing camp for adults in the world - European Vocal
+          Camp.
+          <br><br>
+          Currently, Alicja is co-founding Ekstremalna Szkoła Wokalna (Extreme
+          Vocal School) in Lodz with Ada Rusinkiewicz and Paulina Glinka and
+          continues to develop her own artistic work.
           """
 
       [languages.en.params.lessons]
@@ -136,25 +138,25 @@ defaultContentLanguageInSubdir = true
         primary_button     = "Sign me in"
         primary_button_url = "lessons"
         content            = """
-          Do you need to refine your song interpretation before a show
-          or audition? Are you recording your own material and something
-          feels off? Are you a “shower singer” dreaming of going onstage?
-          No matter your experience, together we will find solutions to
-          improve your voice.
-
+          Do you need to refine your song interpretation before a show or
+          audition? Are you recording your own material and something feels off?
+          Are you a “shower singer” dreaming of going onstage? No matter your
+          experience, together we will find solutions to improve your voice.
+          <br><br>
           During private lessons, we work toward your goals - every lesson is
-          created for your growth. Your vocal abilities expand through scales, song
-          fragments, and many other exercises. You will learn to work on your voice
-          between our sessions, become more aware of your vocal health, grow your
-          stamina, and overcome stage fright!
-
+          created for your growth. Your vocal abilities expand through scales,
+          song fragments, and many other exercises. You will learn to work on
+          your voice between our sessions, become more aware of your vocal
+          health, grow your stamina, and overcome stage fright!
+          <br><br>
           We can develop your range, build balanced registration (mixed voice),
-          and also prepare you for belting or add some rock effects like distortion.
-          I am willing to help you make stylistic choices in almost every genre possible :)
-
-          My role as a vocal coach and singing teacher is to create an environment where you
-          can develop your unique sound and explore new possibilities.
-
+          and also prepare you for belting or add some rock effects like
+          distortion. I am willing to help you make stylistic choices in almost
+          every genre possible :)
+          <br><br>
+          My role as a vocal coach and singing teacher is to create an
+          environment where you can develop your unique sound and explore new
+          possibilities.
           """
 
       [languages.en.params.call_to_action]
@@ -218,12 +220,13 @@ defaultContentLanguageInSubdir = true
         content = """
           Czujesz, że nie wykorzystujesz w pełni potencjału swojego głosu?
           Marzysz o szerokiej skali i dźwięcznej barwie? Planujesz przygotować
-          się na wyzwania sceny, castingu lub studia nagraniowego? Pozwól, że
-          poprowadzę Cię w procesie budowania solidnych podstaw Twojego
-          artystycznego rozwoju. Pracuję z wokalistami, którzy chcą wydobyć ze
-          swojego głosu to, co najlepsze. Wierzę, że każdy może śpiewać -
-          potrzebujesz treningu dopasowanego do swoich potrzeb, by w pełni
-          rozkwitnąć.
+          się na wyzwania sceny, castingu lub studia nagraniowego?
+          <br><br>
+          Pozwól, że poprowadzę Cię w procesie budowania solidnych podstaw
+          Twojego artystycznego rozwoju. Pracuję z wokalistami, którzy chcą
+          wydobyć ze swojego głosu to, co najlepsze. Wierzę, że każdy może
+          śpiewać - potrzebujesz treningu dopasowanego do swoich potrzeb, by w
+          pełni rozkwitnąć.
           """
 
       [languages.pl.params.bio]
@@ -232,25 +235,28 @@ defaultContentLanguageInSubdir = true
         primary_button     = "Pełne bio"
         primary_button_url = "about"
         content            = """
-        Alicja jest wokalistką i trenerką wokalną specjalizującą się w śpiewie rozrywkowym
-        i rockowym. Jest trenerką Modern Vocal Training na poziomie 3 (zaawansowanym)
-        z wieloletnim doświadczeniem, pracującą z wokalistami na każdym poziomie zaawansowania,
-        zarówno indywidualnie, jak i w grupach.
-
-        Alicja nieustannie doskonali swoje umiejętności pod okiem specjalistów z całego świata.
-        Poszerza swoje horyzonty poznając różne metody pracy z głosem i ciałem:
-        na warsztatach, kursach i konferencjach naukowych.
-        Jej dodatkowe szkolenia obejmują m.in. kursy produkcji muzycznej i pisania piosenek.
-        Jako wokalistka, tancerka i aktorka występowała w offowych spektaklach teatralnych,
-        koncertach i eksperymentalnych projektach artystycznych.
-
-        Alicja kontynuuje swój rozwój zawodowy na najwyższym poziomie Modern Vocal Training
-        Level 4, a w tym roku prowadziła lekcje indywidualne na największych warsztatach wokalnych
-        dla dorosłych na świecie - European Vocal Camp.
-
-        Obecnie Alicja współtworzy Ekstremalną Szkołę Wokalną w Łodzi
-        z Adą Rusinkiewicz i Pauliną Glinką
-        oraz rozwija własną twórczość artystyczną.
+          Alicja jest wokalistką i trenerką wokalną specjalizującą się w śpiewie
+          rozrywkowym i rockowym. Jest trenerką Modern Vocal Training na
+          poziomie 3 (zaawansowanym) z wieloletnim doświadczeniem, pracującą z
+          wokalistami na każdym poziomie zaawansowania, zarówno indywidualnie,
+          jak i w grupach.
+          <br><br>
+          Alicja nieustannie doskonali swoje umiejętności pod okiem specjalistów
+          z całego świata. Poszerza swoje horyzonty poznając różne metody pracy
+          z głosem i ciałem: na warsztatach, kursach i konferencjach naukowych.
+          Jej dodatkowe szkolenia obejmują m.in. kursy produkcji muzycznej i
+          pisania piosenek. Jako wokalistka, tancerka i aktorka występowała w
+          offowych spektaklach teatralnych, koncertach i eksperymentalnych
+          projektach artystycznych.
+          <br><br>
+          Alicja kontynuuje swój rozwój zawodowy na najwyższym poziomie Modern
+          Vocal Training Level 4, a w tym roku prowadziła lekcje indywidualne na
+          największych warsztatach wokalnych dla dorosłych na świecie - European
+          Vocal Camp.
+          <br><br>
+          Obecnie Alicja współtworzy Ekstremalną Szkołę Wokalną w Łodzi z Adą
+          Rusinkiewicz i Pauliną Glinką oraz rozwija własną twórczość
+          artystyczną.
           """
 
       [languages.pl.params.lessons]
@@ -260,24 +266,28 @@ defaultContentLanguageInSubdir = true
         primary_button_url = "lessons"
         content            = """
           Chcesz dopracować interpretację utworu przed występem lub castingiem?
-          Nagrywasz autorski materiał i słyszysz, że coś w Twoim głosie jeszcze nie brzmi?
-          Śpiewasz tylko pod prysznicem, ale marzysz o tym, żeby w końcu wyjść na scenę?
-          Niezależnie od Twojego doświadczenia znajdziemy rozwiązania,
-          które sprawią, że Twój śpiew wzniesie się na wyższy poziom.
-
-          Podczas zajęć indywidualnych określamy cele i pracujemy nad nimi - każda lekcja
-          tworzona jest z myślą o Twoim rozwoju. Twoje możliwości wokalne
-          poszerzą się dzięki indywidualnie dobranym skalom i fragmentom piosenek.
-          Nauczysz się, jak pracować nad głosem między naszymi spotkaniami,
-          dowiesz się, jak zadbać o swoje zdrowie wokalne, zbudujesz większą
-          wytrzymałość i zdobędziesz narzędzia, dzięki którym pokonasz tremę!
-
-          Rozwiniemy skalę Twojego głosu, zbudujemy płynne przejście między rejestrami (tzw. mix),
-          a także możemy przygotować Cię pod belting, a nawet dodamy efekty rockowe takie jak distortion.
-          Chętnie pomogę Ci dobrać środki wyrazu w niemal każdym gatunku muzycznym :)
-
-          Moją rolą, jako trenerki wokalnej i nauczycielki śpiewu, jest stworzenie warunków,
-          w których możesz rozwijać swoje unikalne brzmienie i odkrywać nowe możliwości.
+          Nagrywasz autorski materiał i słyszysz, że coś w Twoim głosie jeszcze
+          nie brzmi? Śpiewasz tylko pod prysznicem, ale marzysz o tym, żeby w
+          końcu wyjść na scenę? Niezależnie od Twojego doświadczenia znajdziemy
+          rozwiązania, które sprawią, że Twój śpiew wzniesie się na wyższy
+          poziom.
+          <br><br>
+          Podczas zajęć indywidualnych określamy cele i pracujemy nad nimi -
+          każda lekcja tworzona jest z myślą o Twoim rozwoju. Twoje możliwości
+          wokalne poszerzą się dzięki indywidualnie dobranym skalom i fragmentom
+          piosenek. Nauczysz się, jak pracować nad głosem między naszymi
+          spotkaniami, dowiesz się, jak zadbać o swoje zdrowie wokalne,
+          zbudujesz większą wytrzymałość i zdobędziesz narzędzia, dzięki którym
+          pokonasz tremę!
+          <br><br>
+          Rozwiniemy skalę Twojego głosu, zbudujemy płynne przejście między
+          rejestrami (tzw. mix), a także możemy przygotować Cię pod belting, a
+          nawet dodamy efekty rockowe takie jak distortion. Chętnie pomogę Ci
+          dobrać środki wyrazu w niemal każdym gatunku muzycznym :)
+          <br><br>
+          Moją rolą, jako trenerki wokalnej i nauczycielki śpiewu, jest
+          stworzenie warunków, w których możesz rozwijać swoje unikalne
+          brzmienie i odkrywać nowe możliwości.
           """
 
       [languages.pl.params.call_to_action]
