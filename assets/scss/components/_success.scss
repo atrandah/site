@@ -1,0 +1,22 @@
+@use "../mixins";
+@use "../variables";
+
+.site-success {
+  padding: variables.$section-padding-first-desktop 0
+    variables.$section-padding-desktop;
+  background: variables.$white;
+  color: variables.$secondary-color;
+
+  @include mixins.mobile {
+    padding: variables.$section-padding-first-mobile 0
+      variables.$section-padding-mobile;
+  }
+
+  p {
+    color: variables.$secondary-color;
+  }
+
+  .container {
+    max-width: 720px;
+  }
+}

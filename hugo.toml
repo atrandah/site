@@ -74,6 +74,11 @@ defaultContentLanguageInSubdir = true
         placeholder_message    = "Message"
         send_message           = "Send"
 
+      [languages.en.params.success]
+        heading = "Your message was sent successfully!"
+        content = "Thanks, I will write to you soon :)"
+        primary_button = "Go back"
+
       [languages.en.params.banner]
         enable             = true
         heading            = "Alicja Tranda"
@@ -181,6 +186,11 @@ defaultContentLanguageInSubdir = true
         placeholder_phone      = "Telefon"
         placeholder_message    = "Wiadomość"
         send_message           = "Wyślij"
+
+      [languages.pl.params.success]
+        heading = "Twoja wiadomość została wysłana!"
+        content = "Dziekuję, odpiszę niebawem :)"
+        primary_button = "Powrót"
 
       [languages.pl.params.banner]
         enable             = true

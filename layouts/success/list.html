@@ -1,0 +1,32 @@
+{{ define "main" }}
+<section class="site-success">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-10 text-center text-lg-start">
+        <h1 class="mb-5">
+          {{ .Site.Params.success.heading }}
+        </h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 text-center text-lg-end">
+        <p class="mb-5">
+          {{ .Site.Params.success.content }}
+        </p>        
+
+        <a href="{{ .Site.Home.Permalink }}"
+           class="btn btn-sm btn-secondary btn-rounded">
+          <span class="btn-area">
+            <span data-text="{{ .Site.Params.success.primary_button }}">
+              {{ .Site.Params.success.primary_button }}
+            </span>
+          </span>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+{{ end }}
