@@ -116,9 +116,13 @@ defaultContentLanguageInSubdir = true
           Alicja is constantly improving her skills
           under the supervision of specialists from around the world, studying
           diverse approaches to voice. Her additional professional training
-          includes courses in music production, songwriting, acting and Estill level 1 & 2.
+          includes courses in music production and songwriting.
           As a vocalist, dancer and actress, she has performed in off-theatre productions,
           concerts, and experimental art projects.
+
+          Alicja continues her career development at the highest Modern Vocal Training Level 4,
+          and this year she conducted individual lessons at the largest singing camp
+          for adults in the world - European Vocal Camp.
 
           Currently, Alicja is co-founding Ekstremalna Szkoła Wokalna
           (Extreme Vocal School) in Lodz
@@ -146,6 +150,7 @@ defaultContentLanguageInSubdir = true
 
           We can develop your range, build balanced registration (mixed voice),
           and also prepare you for belting or add some rock effects like distortion.
+          I am willing to help you make stylistic choices in almost every genre possible :)
 
           My role as a vocal coach and singing teacher is to create an environment where you
           can develop your unique sound and explore new possibilities.
@@ -235,10 +240,13 @@ defaultContentLanguageInSubdir = true
         Alicja nieustannie doskonali swoje umiejętności pod okiem specjalistów z całego świata.
         Poszerza swoje horyzonty poznając różne metody pracy z głosem i ciałem:
         na warsztatach, kursach i konferencjach naukowych.
-        Jej dodatkowe szkolenia obejmują m.in. kursy produkcji muzycznej, pisania piosenek,
-        aktorskie i Estill poziom 1 i 2.
+        Jej dodatkowe szkolenia obejmują m.in. kursy produkcji muzycznej i pisania piosenek.
         Jako wokalistka, tancerka i aktorka występowała w offowych spektaklach teatralnych,
         koncertach i eksperymentalnych projektach artystycznych.
+
+        Alicja kontynuuje swój rozwój zawodowy na najwyższym poziomie Modern Vocal Training
+        Level 4, a w tym roku prowadziła lekcje indywidualne na największych warsztatach wokalnych
+        dla dorosłych na świecie - European Vocal Camp.
 
         Obecnie Alicja współtworzy Ekstremalną Szkołę Wokalną w Łodzi
         z Adą Rusinkiewicz i Pauliną Glinką
@@ -251,7 +259,7 @@ defaultContentLanguageInSubdir = true
         primary_button     = "Zapisz mnie"
         primary_button_url = "lessons"
         content            = """
-          Chcesz popracować nad interpretacją utworu przed występem lub castingiem?
+          Chcesz dopracować interpretację utworu przed występem lub castingiem?
           Nagrywasz autorski materiał i słyszysz, że coś w Twoim głosie jeszcze nie brzmi?
           Śpiewasz tylko pod prysznicem, ale marzysz o tym, żeby w końcu wyjść na scenę?
           Niezależnie od Twojego doświadczenia znajdziemy rozwiązania,
@@ -265,7 +273,8 @@ defaultContentLanguageInSubdir = true
           wytrzymałość i zdobędziesz narzędzia, dzięki którym pokonasz tremę!
 
           Rozwiniemy skalę Twojego głosu, zbudujemy płynne przejście między rejestrami (tzw. mix),
-          a także możemy przygotować Cię pod belting oraz dodamy efekty rockowe takie jak distortion.
+          a także możemy przygotować Cię pod belting, a nawet dodamy efekty rockowe takie jak distortion.
+          Chętnie pomogę Ci dobrać środki wyrazu w niemal każdym gatunku muzycznym :)
 
           Moją rolą, jako trenerki wokalnej i nauczycielki śpiewu, jest stworzenie warunków,
           w których możesz rozwijać swoje unikalne brzmienie i odkrywać nowe możliwości.
