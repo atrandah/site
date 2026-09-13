@@ -78,11 +78,6 @@ defaultContentLanguageInSubdir = true
         placeholder_message    = "Message"
         send_message           = "Send"
 
-      [languages.en.params.navAction]
-        status = true
-        name   = "Get in touch"
-        url    = "contact"
-
       [languages.en.params.banner]
         enable             = true
         heading            = "Alicja Tranda"
@@ -195,17 +190,12 @@ defaultContentLanguageInSubdir = true
       description = "Alicja Tranda - trenerka wokalna i wokalistka z Łodzi (Polska, UE)"
 
       [languages.pl.params.contactForm]
-        placeholder_first_name = "First Name"
-        placeholder_last_name  = "Last Name"
+        placeholder_first_name = "Imię"
+        placeholder_last_name  = "Nazwisko"
         placeholder_email      = "Email"
-        placeholder_phone      = "Phone"
-        placeholder_message    = "Message"
-        send_message           = "Send"
-
-      [languages.pl.params.navAction]
-        status = true
-        name   = "Get in touch"
-        url    = "contact"
+        placeholder_phone      = "Telefon"
+        placeholder_message    = "Wiadomość"
+        send_message           = "Wyślij"
 
       [languages.pl.params.banner]
         enable             = true
