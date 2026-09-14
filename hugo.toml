@@ -44,8 +44,6 @@ defaultContentLanguageInSubdir = true
     copyright = "Alicja Tranda "
 
     [params.footer.contact]
-      email = "mail@alicjatranda.com"
-
       [[params.footer.contact.link]]
         name = "Facebook"
         url  = "https://www.facebook.com/AlicjaTrandaVocalCoach"

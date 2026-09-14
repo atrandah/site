@@ -9,11 +9,7 @@
             {{ range .link }}
             <li><a href="{{ .url }}">{{ .name }}</a></li>
             {{ end }}
-            {{ if .email }}
-            <li><a href="mailto:{{ .email }}">Mail</a></li>
-            {{ end }}
           </ul>
-
         </div>
       </div>
       {{ end }}
