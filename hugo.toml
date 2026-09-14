@@ -178,16 +178,6 @@ defaultContentLanguageInSubdir = true
         [languages.en.params.footer.contact]
           title = "Contact"
 
-        [languages.en.params.footer.other]
-          title       = "ESW"
-          description = "Do you need a stationary in-person lesson? You will find me here!"
-          url         = "ekstremalnaszkolawokalna.pl"
-          address     = "Piwna 24, Łódź, Poland"
-
-        [languages.en.params.footer.service]
-          title       = "Online lessons"
-          description = "I also offer online lessons (PL / ENG). Learn from anywhere! Let's find a convenient date - DM me or send me an email."
-
         [languages.en.params.footer.back_to_top]
           description = "I want to <br> visit again"
 
@@ -321,16 +311,6 @@ defaultContentLanguageInSubdir = true
 
         [languages.pl.params.footer.contact]
           title = "Kontakt"
-
-        [languages.pl.params.footer.other]
-          title       = "ESW"
-          description = "Potrzebujesz stacjonarnej lekcji na żywo? Znajdziesz mnie tutaj!"
-          url         = "ekstremalnaszkolawokalna.pl"
-          address     = "Piwna 24, Łódź, Poland"
-
-        [languages.pl.params.footer.service]
-          title       = "Lekcje online"
-          description = "Oferuję również lekcje online (PL / ANG). Ucz się z dowolnego miejsca! Znajdźmy wspólny termin - wyślij e-mail lub wiadomość prywatną."
 
         [languages.pl.params.footer.back_to_top]
           description = "Wróć na górę"
