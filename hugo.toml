@@ -149,6 +149,24 @@ defaultContentLanguageInSubdir = true
           environment where you can develop your unique sound and explore new
           possibilities.
           """
+      [languages.en.params.locations]
+        heading = "Where you can find me"
+        mapTitle = "School location"
+        mapEmbed = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2468.1623465889193!2d19.440119112886155!3d51.78491897176046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471bcba12b74c0bd%3A0x72eccf6fa7e6f3e4!2sEKSTREMALNA%20SZKO%C5%81A%20WOKALNA%20Ady%20Rusinkiewicz!5e0!3m2!1sen!2spl!4v1789385150620!5m2!1sen!2spl"
+
+        [languages.en.params.locations.inPerson]
+          heading = "In-person lessons"
+          content = """
+            <a style="color: #000" href="https://ekstremalnaszkolawokalna.pl">ekstremalnaszkolawokalna.pl</a>
+            """
+
+        [languages.en.params.locations.online]
+          heading = "Online voice lessons"
+          content = """
+            I also offer online lessons (PL / EN). Learn from anywhere! Let's find a convenient date - DM me or send me an email.
+            <br><br>
+            All you need is a stable connection and headphones.
+            """
 
       [languages.en.params.call_to_action]
         heading              = "Let’s work together!"
@@ -274,6 +292,25 @@ defaultContentLanguageInSubdir = true
           stworzenie warunków, w których możesz rozwijać swoje unikalne
           brzmienie i odkrywać nowe możliwości.
           """
+
+      [languages.pl.params.locations]
+        heading = "Gdzie można mnie znaleźć"
+        mapTitle = "Położenie szkoły"
+        mapEmbed = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2468.1623465889193!2d19.440119112886155!3d51.78491897176046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471bcba12b74c0bd%3A0x72eccf6fa7e6f3e4!2sEKSTREMALNA%20SZKO%C5%81A%20WOKALNA%20Ady%20Rusinkiewicz!5e0!3m2!1sen!2spl!4v1789385150620!5m2!1sen!2spl"
+
+        [languages.pl.params.locations.inPerson]
+          heading = "Lekcje na żywo"
+          content = """
+            <a style="color: #000" href="https://ekstremalnaszkolawokalna.pl">ekstremalnaszkolawokalna.pl</a>
+            """
+
+        [languages.pl.params.locations.online]
+          heading = "Lekcje online"
+          content = """
+            Oferuję również lekcje online (PL / ANG). Ucz się z dowolnego miejsca! Znajdźmy wspólny termin - wyślij e-mail lub wiadomość prywatną.
+            <br><br>
+            Wszystko co potrzebujesz to stabilne połączenie i słuchawki.
+            """
 
       [languages.pl.params.call_to_action]
         heading              = "Chcę się zapisać!"

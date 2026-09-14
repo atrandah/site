@@ -1,0 +1,34 @@
+{{ with .Site.Params.locations }}
+<section class="section-padding-default background--light-blue" id="locations">
+  <div class="container">
+    <div class="section-title">
+      <h2>{{ .heading }}</h2>
+    </div>
+
+    <div class="row g-4 g-lg-5">
+      <div class="col-lg-6 order-2 order-lg-1">
+        <div class="column-title">
+          <h3>{{ .inPerson.heading }}</h3>
+        </div>
+        <div class="mb-5">{{ .inPerson.content | safeHTML }}</div>
+
+        <div class="column-title">
+          <h3>{{ .online.heading }}</h3>
+        </div>
+        <div>{{ .online.content | safeHTML }}</div>
+      </div>
+      <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
+        <iframe class="w-100 h-100"
+          style="min-height: 350px"
+          src="{{ .mapEmbed }}"
+          title="{{ .mapTitle }}"
+          style="border:0"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+{{ end }}
