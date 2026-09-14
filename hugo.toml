@@ -157,15 +157,18 @@ defaultContentLanguageInSubdir = true
         [languages.en.params.locations.inPerson]
           heading = "In-person lessons"
           content = """
+          Do you need a stationary in-person lesson? You will find me here!
+          <br><br>
+          Piwna 24, Lodz, Poland
             <a style="color: #000" href="https://ekstremalnaszkolawokalna.pl">ekstremalnaszkolawokalna.pl</a>
             """
 
         [languages.en.params.locations.online]
           heading = "Online voice lessons"
           content = """
-            I also offer online lessons (PL / EN). Learn from anywhere! Let's find a convenient date - DM me or send me an email.
+            I also offer online lessons (EN / PL). Learn from anywhere! Let's find a convenient date - write me a message.
             <br><br>
-            All you need is a stable connection and headphones.
+            All you need is a stable connection.
             """
 
       [languages.en.params.call_to_action]
@@ -291,15 +294,18 @@ defaultContentLanguageInSubdir = true
         [languages.pl.params.locations.inPerson]
           heading = "Lekcje na żywo"
           content = """
+          Potrzebujesz lekcji stacjonarnej, chcesz ćwiczyć na żywo? Znajdziesz mnie tutaj!
+            <br><br>
+          Piwna 24, Łódź, Polska
             <a style="color: #000" href="https://ekstremalnaszkolawokalna.pl">ekstremalnaszkolawokalna.pl</a>
             """
 
         [languages.pl.params.locations.online]
           heading = "Lekcje online"
           content = """
-            Oferuję również lekcje online (PL / ANG). Ucz się z dowolnego miejsca! Znajdźmy wspólny termin - wyślij e-mail lub wiadomość prywatną.
+            Oferuję również lekcje online (PL / ANG). Ucz się z dowolnego miejsca. Znajdziemy dogodny termin - wyślij do mnie wiadomość.
             <br><br>
-            Wszystko co potrzebujesz to stabilne połączenie i słuchawki.
+            Wszystko, czego potrzebujesz, to stabilne połączenie internetowe.
             """
 
       [languages.pl.params.call_to_action]
