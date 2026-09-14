@@ -157,9 +157,10 @@ defaultContentLanguageInSubdir = true
         [languages.en.params.locations.inPerson]
           heading = "In-person lessons"
           content = """
-          Do you need a stationary in-person lesson? You will find me here!
-          <br><br>
-          Piwna 24, Lodz, Poland
+            Do you need a stationary in-person lesson? You will find me here!
+            <br><br>
+            Piwna 24, Lodz, Poland
+            <br>
             <a style="color: #000" href="https://ekstremalnaszkolawokalna.pl">ekstremalnaszkolawokalna.pl</a>
             """
 
@@ -294,9 +295,10 @@ defaultContentLanguageInSubdir = true
         [languages.pl.params.locations.inPerson]
           heading = "Lekcje na żywo"
           content = """
-          Potrzebujesz lekcji stacjonarnej, chcesz ćwiczyć na żywo? Znajdziesz mnie tutaj!
+            Potrzebujesz lekcji stacjonarnej, chcesz ćwiczyć na żywo? Znajdziesz mnie tutaj!
             <br><br>
-          Piwna 24, Łódź, Polska
+            Piwna 24, Łódź, Polska
+            <br>
             <a style="color: #000" href="https://ekstremalnaszkolawokalna.pl">ekstremalnaszkolawokalna.pl</a>
             """
 
@@ -305,7 +307,7 @@ defaultContentLanguageInSubdir = true
           content = """
             Oferuję również lekcje online (PL / ANG). Ucz się z dowolnego miejsca. Znajdziemy dogodny termin - wyślij do mnie wiadomość.
             <br><br>
-            Wszystko, czego potrzebujesz, to stabilne połączenie internetowe.
+            Wszystko, czego potrzebujesz, żeby zacząć, to stabilne połączenie internetowe.
             """
 
       [languages.pl.params.call_to_action]
