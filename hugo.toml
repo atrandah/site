@@ -130,7 +130,6 @@ defaultContentLanguageInSubdir = true
       [languages.en.params.lessons]
         enable             = true
         heading            = "Vocal coaching for singers / online lessons"
-        primary_button     = "Sign me in"
         content            = """
           Do you need to refine your song interpretation before a show or
           audition? Are you recording your own material and something feels off?
@@ -152,6 +151,11 @@ defaultContentLanguageInSubdir = true
           environment where you can develop your unique sound and explore new
           possibilities.
           """
+
+      [languages.en.params.call_to_action]
+        heading              = "Let’s work together!"
+        primary_button       = "Get in touch"
+        primary_button_url   = "contact"
 
       [languages.en.params.footer]
 
@@ -247,7 +251,6 @@ defaultContentLanguageInSubdir = true
       [languages.pl.params.lessons]
         enable             = true
         heading            = "Lekcje śpiewu dla wokalistów / trening online"
-        primary_button     = "Zapisz mnie"
         content            = """
           Chcesz dopracować interpretację utworu przed występem lub castingiem?
           Nagrywasz autorski materiał i słyszysz, że coś w Twoim głosie jeszcze
@@ -273,6 +276,11 @@ defaultContentLanguageInSubdir = true
           stworzenie warunków, w których możesz rozwijać swoje unikalne
           brzmienie i odkrywać nowe możliwości.
           """
+
+      [languages.pl.params.call_to_action]
+        heading              = "Chcę się zapisać!"
+        primary_button       = "Zarezerwuj lekcję"
+        primary_button_url   = "contact"
 
       [languages.pl.params.footer]
 

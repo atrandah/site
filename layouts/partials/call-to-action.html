@@ -1,0 +1,18 @@
+{{ with .Site.Params.call_to_action }}
+<section class="section-padding-default background--dark-blue" id="cta">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="site-cta-title">{{ .heading }}</h1>
+            <a href="{{ .primary_button_url | absLangURL }}" class="btn btn-primary btn-rounded">
+              <span class="btn-area">
+                <span data-text="{{ .primary_button }}">
+                  {{ .primary_button }}
+                </span>
+              </span>
+            </a>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
