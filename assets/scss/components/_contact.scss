@@ -25,21 +25,6 @@
 
   &-form {
     margin-top: 20px;
-
-    h4 {
-      font-weight: 300;
-      text-transform: uppercase;
-      margin-bottom: 50px;
-      letter-spacing: 3px;
-
-      @include mixins.tablet {
-        font-size: 20px;
-      }
-
-      @include mixins.desktop {
-        margin-bottom: 70px;
-      }
-    }
   }
 }
 

@@ -67,6 +67,7 @@ defaultContentLanguageInSubdir = true
       description = "Alicja Tranda - vocal coach and vocalist based in Lodz, Poland (EU)"
 
       [languages.en.params.contactForm]
+        heading = "Got a question?<br>Write me a message"
         placeholder_first_name = "First Name"
         placeholder_last_name  = "Last Name"
         placeholder_email      = "Email"
@@ -180,6 +181,7 @@ defaultContentLanguageInSubdir = true
       description = "Alicja Tranda - trenerka wokalna i wokalistka z Łodzi (Polska, UE)"
 
       [languages.pl.params.contactForm]
+        heading = "Masz pytanie?<br>Napisz mi wiadomość"
         placeholder_first_name = "Imię"
         placeholder_last_name  = "Nazwisko"
         placeholder_email      = "Email"
